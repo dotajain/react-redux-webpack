@@ -1,0 +1,16 @@
+{
+  "name": "react-redux-webpack",
+  "version": "1.0.0",
+  "description": "getting started with webpack react redux es6",
+  "main": "webpack.config.js",
+  "repository": "git@github.com:dotajain/react-redux-webpack.git",
+  "author": "abhishek jain <jainvabhi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.3",
+    "webpack-merge": "^4.1.0"
+  }
+}

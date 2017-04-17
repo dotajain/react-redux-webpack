@@ -1,0 +1,380 @@
+{
+    "hits": {
+        "total": 5,
+        "hits": [
+                 {
+                 "_id": "664e19ab-1bd7-471c-9543-eafad3e9c264",
+                 "_source": {
+                 "id": "664e19ab-1bd7-471c-9543-eafad3e9c264",
+                 "ordinal": "46",
+                 "archived": false,
+                 "this_account": {
+                 "number": "12345678",
+                 "bank": "CB",
+                 "sort_code": "654321",
+                 "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061"
+                 },
+                 "other_account": {
+                 "number": null,
+                 "sort_code": null,
+                 "name": null
+                 },
+                 "suggested_terms": "Interest",
+                 "details": {
+                 "type": "Fee",
+                 "narrative": {
+                 "small": "Interest",
+                 "medium": "Interest",
+                 "large": "Interest"
+                 },
+                 "when": "2016-07-14T00:01:00.000+01:00",
+                 "amount": {
+                 "value": -0.28,
+                 "currency": "GBP"
+                 },
+                 "balances": {
+                 "current": {
+                 "value": 846.68,
+                 "currency": "GBP"
+                 }
+                 },
+                 "posted": true,
+                 "debit_credit": "debit"
+                 },
+                 "metadata": {
+                 "tags": [
+                 
+                 ],
+                 "categories": [
+                                {
+                                "value": "Untagged",
+                                "path": "/untagged",
+                                "scheme": "NAG Categories",
+                                "id": 19,
+                                "archived": false
+                                }
+                                ],
+                 "where": {
+                 "city": "Leafyville"
+                 }
+                 }
+                 }
+                 },
+                 {
+                 "_id": "89391dae-e08d-4903-a917-8133c0a12c58",
+                 "_source": {
+                 "id": "89391dae-e08d-4903-a917-8133c0a12c58",
+                 "ordinal": "52",
+                 "archived": false,
+                 "this_account": {
+                 "number": "12345678",
+                 "bank": "CB",
+                 "sort_code": "654321",
+                 "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061"
+                 },
+                 "other_account": {
+                 "number": null,
+                 "sort_code": null,
+                 "name": null
+                 },
+                 "suggested_terms": "Card 01, Treats 'N' Sweets",
+                 "details": {
+                 "type": "Point Of Sale",
+                 "narrative": {
+                 "small": "Card 01, Treats 'N' Sweets",
+                 "medium": "Card 01, Treats 'N' Sweets",
+                 "large": "Card 01, Treats 'N' Sweets"
+                 },
+                 "when": "2016-07-09T12:01:00.000+01:00",
+                 "amount": {
+                 "value": -2.37,
+                 "currency": "GBP"
+                 },
+                 "balances": {
+                 "current": {
+                 "value": 850.95,
+                 "currency": "GBP"
+                 }
+                 },
+                 "posted": true,
+                 "debit_credit": "debit"
+                 },
+                 "metadata": {
+                 "tags": [
+                 
+                 ],
+                 "categories": [
+                                {
+                                "value": "Kids",
+                                "path": "/kids",
+                                "scheme": "NAG Categories",
+                                "id": 10,
+                                "archived": false
+                                }
+                                ],
+                 "where": {
+                 "city": "Leafyville"
+                 }
+                 }
+                 }
+                 },
+                 {
+                 "_id": "79fceec7-6035-4321-82c4-bce65ec78c18",
+                 "_source": {
+                 "id": "79fceec7-6035-4321-82c4-bce65ec78c18",
+                 "ordinal": "53",
+                 "archived": false,
+                 "this_account": {
+                 "number": "12345678",
+                 "bank": "CB",
+                 "sort_code": "654321",
+                 "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061"
+                 },
+                 "other_account": {
+                 "number": null,
+                 "sort_code": null,
+                 "name": null
+                 },
+                 "suggested_terms": "Card 01, Mr Greens Greengrocers",
+                 "details": {
+                 "type": "Point Of Sale",
+                 "narrative": {
+                 "small": "Card 01, Mr Greens Greengrocers",
+                 "medium": "Card 01, Mr Greens Greengrocers",
+                 "large": "Card 01, Mr Greens Greengrocers"
+                 },
+                 "when": "2016-07-14T13:00:00.000+01:00",
+                 "amount": {
+                 "value": -1.57,
+                 "currency": "GBP"
+                 },
+                 "balances": {
+                 "current": {
+                 "value": 845.11,
+                 "currency": "GBP"
+                 }
+                 },
+                 "posted": true,
+                 "debit_credit": "debit"
+                 },
+                 "metadata": {
+                 "tags": [
+                 
+                 ],
+                 "categories": [
+                                {
+                                "value": "Groceries",
+                                "path": "/groceries",
+                                "scheme": "NAG Categories",
+                                "id": 6,
+                                "archived": false
+                                }
+                                ],
+                 "where": {
+                 "city": "Leafyville"
+                 }
+                 }
+                 }
+                 },
+                 {
+                 "_id": "cc86a7df-14a6-41b3-9116-0453e285e8a8",
+                 "_source": {
+                 "id": "cc86a7df-14a6-41b3-9116-0453e285e8a8",
+                 "ordinal": "54",
+                 "archived": false,
+                 "this_account": {
+                 "number": "12345678",
+                 "bank": "CB",
+                 "sort_code": "654321",
+                 "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061"
+                 },
+                 "other_account": {
+                 "number": null,
+                 "sort_code": null,
+                 "name": null
+                 },
+                 "suggested_terms": "Card 01, The Outdoor Cafe",
+                 "details": {
+                 "type": "Point Of Sale",
+                 "narrative": {
+                 "small": "Card 01, The Outdoor Cafe",
+                 "medium": "Card 01, The Outdoor Cafe",
+                 "large": "Card 01, The Outdoor Cafe"
+                 },
+                 "when": "2016-07-12T13:00:00.000+01:00",
+                 "amount": {
+                 "value": -3.99,
+                 "currency": "GBP"
+                 },
+                 "balances": {
+                 "current": {
+                 "value": 846.96,
+                 "currency": "GBP"
+                 }
+                 },
+                 "posted": true,
+                 "debit_credit": "debit"
+                 },
+                 "metadata": {
+                 "tags": [
+                 
+                 ],
+                 "categories": [
+                                {
+                                "value": "Eating out",
+                                "path": "/eating out",
+                                "scheme": "NAG Categories",
+                                "id": 12,
+                                "archived": false
+                                }
+                                ],
+                 "where": {
+                 "city": "Leafyville"
+                 }
+                 }
+                 }
+                 },
+                 {
+                 "_id": "ea17e10f-682e-4c7e-a1ba-1332638d591b",
+                 "_source": {
+                 "id": "ea17e10f-682e-4c7e-a1ba-1332638d591b",
+                 "ordinal": "58",
+                 "archived": false,
+                 "this_account": {
+                 "number": "12345678",
+                 "bank": "CB",
+                 "sort_code": "654321",
+                 "uuid": "b80e95a0-6b60-45b2-8b0f-77f2355f3061"
+                 },
+                 "other_account": {
+                 "number": null,
+                 "sort_code": null,
+                 "name": null
+                 },
+                 "suggested_terms": "Card 01, Charity Appeals",
+                 "details": {
+                 "type": "Point Of Sale",
+                 "narrative": {
+                 "small": "Card 01, Charity Appeals",
+                 "medium": "Card 01, Charity Appeals",
+                 "large": "Card 01, Charity Appeals"
+                 },
+                 "when": "2016-07-27T13:00:00.000+01:00",
+                 "amount": {
+                 "value": -5.0,
+                 "currency": "GBP"
+                 },
+                 "balances": {
+                 "current": {
+                 "value": 845.11,
+                 "currency": "GBP"
+                 }
+                 },
+                 "posted": false,
+                 "debit_credit": "debit"
+                 },
+                 "metadata": {
+                 "tags": [
+                 
+                 ],
+                 "categories": [
+                                {
+                                "value": "Other",
+                                "path": "/other",
+                                "scheme": "NAG Categories",
+                                "id": 14,
+                                "archived": false
+                                }
+                                ],
+                 "where": {
+                 "city": "Leafyville"
+                 }
+                 }
+                 }
+                 }
+                 ]
+    },
+    "aggregations": {
+        "debit": {
+            "doc_count": 5,
+            "filtered_by_date": {
+                "buckets": [
+                            {
+                            "doc_count": 5,
+                            "key": "8",
+                            "monthly_spend": {
+                            "avg": -2.6420000000000003,
+                            "min": -5.0,
+                            "count": 5,
+                            "max": 0,
+                            "sum": -13.21
+                            },
+                            "key_as_string": "2016-07-07T00:00:00.000+01:00",
+                            "most_popular_transaction": {
+                            "buckets": [
+                                        {
+                                        "key": -5.0,
+                                        "doc_count": 5
+                                        }
+                                        ]
+                            }
+                            }
+                            ]
+            }
+        },
+        "credit": {
+            "doc_count": 0,
+            "filtered_by_date": {
+                "buckets": [
+                            {
+                            "doc_count": 5,
+                            "key": "8",
+                            "monthly_spend": {
+                            "avg": -2.6420000000000003,
+                            "min": -5.0,
+                            "count": 5,
+                            "max": 0,
+                            "sum": -13.21
+                            },
+                            "key_as_string": "2016-07-07T00:00:00.000+01:00",
+                            "most_popular_transaction": {
+                            "buckets": [
+                                        {
+                                        "key": -5.0,
+                                        "doc_count": 5
+                                        }
+                                        ]
+                            }
+                            }
+                            ]
+            }
+        },
+        "totals_of_debit_and_credits": {
+            "doc_count": 5,
+            "filtered_by_date": {
+                "buckets": [
+                            {
+                            "doc_count": 5,
+                            "key": "8",
+                            "monthly_spend": {
+                            "avg": -2.6420000000000003,
+                            "min": -5.0,
+                            "count": 5,
+                            "max": 0,
+                            "sum": -13.21
+                            },
+                            "key_as_string": "2016-07-07T00:00:00.000+01:00",
+                            "most_popular_transaction": {
+                            "buckets": [
+                                        {
+                                        "key": -5.0,
+                                        "doc_count": 5
+                                        }
+                                        ]
+                            }
+                            }
+                            ]
+            }
+        }
+    }
+}

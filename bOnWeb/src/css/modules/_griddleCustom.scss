@@ -1,0 +1,207 @@
+$pageFontColor: rgb(43, 230, 109);
+$columnColor: rgb(46, 125, 178);
+$borderColor: rgb(165, 165, 165);
+$site-background-color: #fff;
+$griddlefilter: #222;
+$setting-color: #DDD;
+$griddlecol-color: #EDEDED;
+
+.b &:not {
+	.griddle-container {
+		border: 1px solid $setting-color;
+	}
+
+	.griddle {
+		.top-section {
+		clear: both;
+		display: table;
+		width: 100%;
+	}
+
+	.griddle-filter {
+		color: $griddlefilter;
+		float: left;
+		min-height: 1px;
+		text-align: left;
+		width: 50%;
+	}
+
+	.griddle-settings-toggle {
+		float: left;
+		text-align: right;
+		width: 50%;
+	}
+
+	.griddle-settings {
+		background-color: $site-background-color;
+		border: 1px solid $setting-color;
+		color: $griddlefilter;
+		margin-bottom: 10px;
+		padding: 10px;
+		}
+
+ 	.griddle-settings .griddle-columns {
+		border-bottom: 1px solid $griddlecol-color;
+		clear: both;
+		display: table;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.griddle-settings .griddle-column-selection {
+		float: left;
+		width: 20%;
+	}
+
+ table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+ th {
+	background-color: $pageFontColor;
+	border: 0px;
+	border-bottom: 1px solid $setting-color;
+	color: $setting-color;
+	padding: 5px;
+}
+
+ td:nth-child(1) {
+	color: $columnColor;
+	}
+
+ td:nth-child(7) button {
+	color: $pageFontColor;
+	}
+
+	tr > td {
+		border: 0px solid $borderColor;
+	}
+
+		tr {
+		border: 1px solid $borderColor;
+	}
+
+ td {
+	background-color: $site-background-color;
+	border-top-color: $setting-color;
+	color: $griddlefilter;
+	padding: 5px;
+}
+
+.footer-container {
+	background-color: $griddlecol-color;
+	border: 0px;
+	color: $griddlefilter;
+	padding: 0px;
+}
+
+.griddle-previous, 
+.griddle { 
+	.griddle-page,
+	.griddle-next {
+		float: left;
+		margin-top: 5px;
+		min-height: 1px;
+		width: 33%;
+		}
+ 	} 
+
+ .griddle-page {
+	text-align: center;
+}
+
+ .griddle-next {
+	text-align: right;
+}
+}
+	//! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+	// 1. Set default font family to sans-serif.
+	// 2. Prevent iOS text size adjust after orientation change, without disabling
+	//   user zoom.
+	//
+	// Remove default margin.
+
+	// HTML5 display definitions
+	//==========================================================================
+
+	// * Correct `block` display not defined for any HTML5 element in IE 8/9.
+	//* Correct `block` display not defined for `details` or `summary` in IE 10/11
+	//* and Firefox.
+	//* Correct `block` display not defined for `main` in IE 11.
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+ //* 1. Correct `inline-block` display not defined in IE 8/9.
+// * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+
+// * Prevent modern browsers from displaying `audio` without controls.
+//* Remove excess height in iOS 5 devices.
+
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+// * Address `[hidden]` styling not present in IE 8/9/10.
+ //* Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+
+
+[hidden],
+template {
+	display: none;
+}
+
+//* Links
+//	 ==========================================================================
+
+ //* Remove the gray background color from active links in IE 10.
+
+a {
+	background-color: transparent;
+}
+
+ //* Improve readability when focused and also mouse hovered in all browsers.
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+//* Text-level semantics
+//	 ========================================================================== */
+
+
+ //* Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+}

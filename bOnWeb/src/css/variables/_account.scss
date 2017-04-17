@@ -1,0 +1,140 @@
+@import '../variables/color';
+@import '../mixins/responsive';
+@import '../mixins/dyb-header';
+@import '../vendor/bootstrap/variables';
+
+$header-tags: 'h1, h2, h3, h4, h5, h6';
+
+@each $name, $accountcolor in $accountcolors {
+
+	.#{$name} {
+		&.b {
+			&.container-fluid-full {
+				background-color: $accountcolor;
+				color: $color-white;
+			}
+		}
+
+		.b & {
+			.rootSideBar {
+				.sidebar-header {
+					background-color: $accountcolor;
+				}
+			} 
+
+
+			&.timeline-item {
+				h4 {
+					// scss-lint:disable ImportantRule
+					color: $accountcolor !important;
+				}
+			}
+
+			.nav {
+				// scss-lint:disable ImportantRule
+				border-color: $accountcolor !important;
+
+				> li {
+					> a {
+						color: $accountcolor;
+					}
+				}
+
+			}
+
+			.nav-pills {
+				> li {
+					&.active {
+						background-color: $accountcolor;
+
+						> a {
+							&,
+							&:hover,
+							&:focus {
+								background-color: $accountcolor;
+							}
+						}
+					}
+				}
+			}
+
+			.nav-tabs {
+				> li {
+					// Active state
+					&.active > a {
+						&,
+						&:hover,
+						&:focus {
+							background-color: $accountcolor;
+						}
+					}
+				}
+			}
+
+			.nav-justified {
+				> li {
+					border-color: $accountcolor;
+					
+					> a {
+						// scss-lint:disable ImportantRule
+						color: $accountcolor !important;
+					}
+					// Active state
+					&.active > a {
+						&,
+						&:hover,
+						&:focus {
+							background-color: $accountcolor;
+							// scss-lint:disable ImportantRule
+							color: $color-white !important;
+						}
+					}
+				}
+			}
+		
+			.table {
+				thead {
+					tr {
+						th {
+							background-color: $accountcolor;
+							color: $site-background-color;
+						}
+					}
+				}
+			}
+
+			.griddle-container {
+				table {
+					thead {
+						th {
+							background-color: $accountcolor;
+							color: $color-white;
+						}
+					}
+				}
+
+			}
+
+
+			.option-select,
+			&.option-select {
+			  
+				input[type='checkbox'] {
+					+ label {
+						// scss-lint:disable ImportantRule
+						background-color: $color-white  !important;
+						border-color: $accountcolor !important;
+					}
+				
+					&:checked + label {
+						// scss-lint:disable ImportantRule
+						background-color: $accountcolor !important;
+						border-color: $color-white !important;
+
+					}
+				}
+			}
+		}
+	}
+}
+

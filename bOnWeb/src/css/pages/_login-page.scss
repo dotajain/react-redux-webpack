@@ -1,0 +1,129 @@
+@import '../mixins/dyb-header';
+@import '../mixins/dyb-page-colors';
+
+.login-page {
+	@include dyb-header('header-login.jpg');
+	@include dyb-color((color: blue)...);
+
+	header {
+		.cb & {
+			@include background-image-cover('../images/cb/login-header.jpg');
+		}
+
+		.yb & {
+			@include background-image-cover('../images/yb/login-header.jpg');
+		}
+	}
+
+	fieldset {
+		margin-top: 0;
+	}
+
+	input[type=password] {
+		text-align: center;
+	}
+
+	h2 {
+		.dyb & {
+			padding-bottom: $standard-spacing;
+		}
+	}
+
+	// TODO: Declare this once for all pages in account-opening.scss
+	.main-container {
+		margin-top: 25px;
+
+		.dyb & {
+			box-shadow: none;
+			margin-top: 0;
+			padding-top: $header-height-dyb + ($standard-spacing * 5);
+		}
+	}
+
+	.btn-primary[disabled] {
+		.cb &,
+		.yb & {
+			background-color: $dark-grey-color;
+			border-color: $dark-grey-color;
+		}
+	}
+
+	.error {
+		p {
+			max-width: $input-width;
+		}
+	}
+
+	.multi-text-question {
+		.text-question label {
+			font-family: CYBHouschkaAltProMedium;
+
+			// scss-lint:disable SelectorDepth
+			.dyb & {
+				font-family: GalanoGrotesqueRegular;
+			}
+			// scss-lint:enable SelectorDepth
+		}
+
+		.required-text {
+			display: none;
+		}
+	}
+
+
+	.username-question {
+		label {
+			font-size: $font-size-medium;
+		}
+
+		button {
+			background-color: palette((color: white)...);
+			border: 0;
+			cursor: pointer;
+			text-decoration: underline;
+		}
+
+		.paragraph-question-wrapper {
+			display: none;
+		}
+	}
+
+	.bottom-navigation-box {
+		margin-top: 60px;
+
+		.dyb & {
+			margin-top: 0;
+		}
+	}
+
+	.page-column-wrapper {
+
+		.dyb & {
+			box-shadow: none;
+		}
+	}
+}
+
+.login-page,
+.authentication-page {
+	.api-error-message {
+		background: palette((color: yellow, tone: light)...);
+		color: palette((color: grey, tone: x-dark)...);
+		padding: 10px;
+		text-align: center;
+
+		// overrides required when used with ErrorMessage component.
+		p {
+			background: inherit;
+			border-radius: 0;
+			// scss-lint:disable ImportantRule
+			padding: 0 !important;
+			// scss-lint:enable ImportantRule
+		}
+
+		.dyb & {
+			border-radius: 5px;
+		}
+	}
+}
+

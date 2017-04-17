@@ -1,0 +1,14 @@
+{
+	"tools": {
+		"title": "Tools",
+			"children": {
+				"GenericMapper" : {
+					"title": "Generic Mapper"
+				},
+				"UserIdentityBuilder" : {
+					"title": "User Identity Builder"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,48 @@
+{
+  "id": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+  "product": {
+    "code": "901",
+    "name": "2 year fixed rate",
+    "description": "2 year fixed rate mortgage"
+  },
+  "actions_available": {
+    "/account/pots": false,
+    "/account/alerts": false,
+    "/account/projections": false,
+    "/account/sweeps": false,
+    "/account/sweeps/transfer/out": false,
+    "/account/transactions/read": false,
+    "/account/payments/transfer/in": false,
+    "/account/payments/transfer/out": false,
+    "/account/payments/uk/default/out": false,
+    "/account/mandates/so/read": false,
+    "/account/mandates/dd/read": false,
+    "/account/mandates/so/write": false,
+    "/account/mandates/dd/write": false
+  },
+  "limits": [
+
+  ],
+  "bank_id": "CB",
+  "number": "650000-11223344",
+  "metadata": {
+    "display_name": "Mortgage"
+  },
+  "owners": [
+    {
+      "id": "2",
+      "provider": "CB",
+      "display_name": "Bob Brown"
+    }
+  ],
+  "balances": [
+    {
+      "type": "current",
+      "amount": {
+        "value": 87202.46,
+        "currency": "GBP"
+      },
+      "at": "2016-05-16T15:07:51.458+00:00"
+    }
+  ]
+}

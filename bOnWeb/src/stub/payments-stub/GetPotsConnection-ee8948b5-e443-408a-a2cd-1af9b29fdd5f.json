@@ -1,0 +1,46 @@
+{
+  
+  "pots": [
+    {
+      "id": "4a131a32-2483-45f2-91c1-074878410dcf",
+      "name": "Family Holiday",
+      "reference": "Reference",
+      "balance": {
+        "value": 1200.00,
+        "currency": "GBP"
+      },
+      "goal": {
+        "amount": {
+          "value": 18000.0,
+          "currency": "GBP"
+        },
+        "when": "2017-08-16"
+      },
+      "schedule": {
+        "recurrence": {
+          "frequency": {
+            "monthly": {
+              "interval": 1,
+              "day_of_month": 1
+            }
+          },
+          "amount": {
+            "value": 270.0,
+            "currency": "GBP"
+          }
+        },
+        "next_payment": {
+          "when": "2016-05-19",
+          "amount": {
+            "value": 270.0,
+            "currency": "GBP"
+          }
+        }
+      }
+    }
+  ],
+  "unallocated_amount": {
+    "value": 8818.9,
+    "currency": "GBP"
+  }
+}

@@ -1,0 +1,292 @@
+@import '../variables/color';
+@import '../mixins/responsive';
+@import '../vendor/bootstrap/mixins/vendor-prefixes';
+
+$value-color: #000;
+$befor-color: #d1cfcf;
+$title-color: #e7e7e7;
+$button-color: #8e8e93;
+$value-color: #616169;
+$keywrapper-border: #2be66d;
+
+
+//keypad styles
+.keypad {
+	height: auto;
+	min-height: 750px;
+	padding: 26px 12px 20px;
+	position: relative;
+	text-align: center;
+
+	@include responsive-max($screen-sm) {
+		margin-top: -10px;
+		padding: 0 10px;
+	}
+
+	.confirm-payment & {
+		min-height: 600px;
+
+		.value {
+			&.confirm-value {
+				@include responsive-max($screen-sm) {
+					background-color: $site-background-color;
+					color: $value-color;
+				}
+			}	
+		}
+	}
+
+	&:before {
+		border-bottom: 12px solid transparent;
+		border-left: 12px solid $befor-color;
+		border-right: 12px solid transparent;
+		border-top: 12px solid transparent;
+		content: '';
+		display: block;
+		height: 0;
+		left: -6px;
+		position: absolute;
+		top: 41px;
+		width: 0;
+		
+
+		@include responsive-max($screen-lg) {
+			left: -6px;
+		}
+
+		@include responsive-max($screen-md) {
+			display: none;
+		}
+	}
+
+	&:after {
+		border-bottom: 12px solid transparent;
+		border-left: 12px solid $befor-color;
+		border-right: 12px solid transparent;
+		border-top: 12px solid transparent;
+		content: '';
+		display: block;
+		height: 0;
+		position: absolute;
+		right: -18px;
+		top: 41px;
+		width: 0;
+
+		@include responsive-max($screen-lg) {
+			right: -27px;
+		}
+
+		@include responsive-max($screen-md) {
+			display: none;
+		}
+	}
+
+	.amount-title {
+		display: none;
+
+		@include responsive-max($screen-md) {
+			@include font-size(14px);
+			// scss-lint:disable ImportantRule
+			border-bottom: 1px solid $title-color !important;
+			border-left: 0 !important;
+			border-radius: 0 !important;
+			border-right: 0 !important;
+			border-top: 0 !important;
+			color: $value-color !important;
+			display: inline-block;
+			float: left;
+			margin: 10px 0 0;
+			padding: 15px 0;
+			text-align: left;
+			width: 40% !important;
+		}
+	}
+
+	.value {
+		@include font-size(38px);
+		// scss-lint:disable ImportantRule
+		border: 2px solid $green !important;
+		border-radius: 5px !important;
+		color: $green;
+		display: inline-block;
+		font-weight: normal;
+		height: 60px;
+		line-height: 32px;
+		margin: 0;
+		padding: 14px;
+		text-align: center;
+		width: 280px;
+
+		@include responsive-max($screen-lg) {
+			width: 278px;
+		}
+
+		@include responsive-max($screen-md) {
+			@include font-size(17px);
+			border-bottom: 1px solid $title-color !important;
+			border-left: 0 !important;
+			border-radius: 0 !important;
+			border-right: 0 !important;
+			border-top: 0 !important;
+			color: $value-color;
+			float: right;
+			padding: 15px 0;
+			text-align: right;
+			width: 60%;
+		}
+
+		@include responsive-max($screen-sm) {
+			color: $green;
+			font-family: GalanoGrotesqueSemiBold !important;	
+		}
+
+		&.confirm-value {
+			background-color: $green;
+			color: $site-background-color;
+
+			@include responsive-max($screen-md) {
+				background-color: $site-background-color;
+				color: $green;
+			}
+
+			@include responsive-max($screen-sm) {
+				background-color: $site-background-color;
+				color: $green;
+			}
+		}
+
+		&.large-amount {
+			@include font-size(24px);
+		}
+	}
+
+	.key-wrapper {
+		background-color: $site-background-color;
+		border: 2px solid $keywrapper-border;
+		border-radius: 5px;
+		display: block;
+		left: 50%;
+		margin: 0 0 0 -140px;
+		padding: 15px 20px 10px;
+		position: absolute;
+		text-align: center;
+		top: 100px;
+		width: 280px;
+		z-index: $z-index-timer-marker;
+
+		&:before {
+			content: '';
+		}
+
+		&:after {
+			@include prefix(filter, drop-shadow(1px 0 -1px rgba(0, 0, 0, .1)), webkit moz ms);
+			border-bottom: 15px solid $keywrapper-border;
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid transparent;
+			bottom: 100%;
+			content: '';
+			display: block; 
+			height: 0;
+			left: 120px;
+			position: absolute;
+			width: 0;
+		}
+
+		button {
+			@include font-size(27px);
+			background-color: $color-white;
+			border: 1px solid $button-color;
+			border-radius: 50%;
+			color: $button-color;
+			display: inline-block;
+			font-family: $b-font-regular;
+			height: 47px;
+			margin: 15px;
+			outline: none;
+			padding: 0;
+			width: 47px;
+		
+
+			&:active {
+				background-color: $button-color;
+				color: $color-white;
+			}
+
+			&:nth-child(12) {
+				@include font-size(18px);
+				border: 0;
+				margin: 10px 0 10px 10px;
+				text-indent: 0;
+				width: 57px;
+
+				&:active {
+					background-color: $site-background-color;
+					color: $green;
+				}
+
+			}
+
+			&:last-child {
+				@include font-size(18px);
+				border: 0;
+				color: $keywrapper-border;
+				display: block;
+				margin: 10px 0 0;
+				padding-bottom: 5px;
+				text-align: center;
+				width: 100%;
+
+				&:active {
+					background-color: $color-white;
+				}
+
+			}
+		}
+	}
+
+	.pay-key {
+		border: 1px solid $green;
+		border-radius: 5px;
+		padding: 20px;
+		position: relative;
+
+		:nth-child(13),
+		:nth-child(14) {
+			button {
+				// scss-lint:disable ImportantRule
+				border: 0 !important;
+			}
+		}
+
+		:nth-child(14) {
+			button {
+				color: $green;
+				margin: 0 0 0 60px;
+				width: 80px;
+			}
+		}
+
+		.key-arrow {
+			background: url('/images/common/key-arrow.svg') no-repeat 0 0;
+			display: inline-block;
+			height: 20px;
+			left: 126px;
+			position: absolute;
+			top: -13px;
+			width: 20px;
+		}
+
+		button {
+			@include font-size(18px);
+			background-color: $color-white;
+			border: 1px solid $button-color;
+			border-radius: 25px;
+			color: $button-color;
+			height: 47px;
+			margin-bottom: 15px;
+			outline: none;
+			width: 47px;
+		}
+	}
+}

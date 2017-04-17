@@ -1,0 +1,27 @@
+{
+  "suggest" : [
+    {
+      "length" : 4,
+      "offset" : 0,
+      "options" : [
+        {
+          "score" : 0.239,
+          "text" : "Mortgage"
+        },
+        {
+          "score" : 0.139,
+          "text" : "Mortgage Payment"
+        },
+        {
+          "score" : 0.239,
+          "text" : "Mortgage Interest Payment"
+        },
+        {
+          "score" : 0.139,
+          "text" : "Monthly Savings"
+        }
+      ],
+      "text" : "fred"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+    "mandates": [
+        {
+	"reference": "hghjghj",
+	"account_number": "70292990",
+	"id": "0009",
+	"sort_code": "205534",
+	"actions_available": {
+		"\/account\/mandates\/so\/write": true
+	},
+	"display_name": "SITB P CROPPER9",
+	"is_active": false,
+	"schedule": {
+		"next_payment": {
+			"when": "2006-05-27",
+			"amount": {
+				"value": 120,
+				"currency": "GBP"
+			}
+		},
+		"recurrence": {
+			"amount": {
+				"value": 120,
+				"currency": "GBP"
+			},
+			"frequency": {
+				"monthly": {
+					"interval": 1
+				}
+			}
+		}
+	}
+},
+        {
+            "id": "0001",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 121,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 121,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER1",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0002",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 122,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 122,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER2",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0003",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER3",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0004",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 124,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 124,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER4",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0005",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER5",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0006",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 126,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 126,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER6",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0007",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 120,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER7",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0008",
+            "reference": "",
+            "schedule": {
+                "recurrence": {
+                    "frequency": {
+                        "monthly": {
+                            "interval": 1
+                        }
+                    },
+                    "amount": {
+                        "value": 128,
+                        "currency": "GBP"
+                    }
+                },
+                "next_payment": {
+                    "when": "2006-05-27",
+                    "amount": {
+                        "value": 128,
+                        "currency": "GBP"
+                    }
+                }
+            },
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER8",
+            "is_active": true,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        },
+        {
+            "id": "0009",
+            "reference": "",
+            "sort_code": "205534",
+            "account_number": "70292990",
+            "display_name": "SITB P CROPPER9",
+            "is_active": false,
+            "actions_available": {
+                "/account/mandates/so/write": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "20037855-f07c-4298-80c6-9f5a9a5e966a",
+    "sort_code": "503939",
+    "account_number": "49893829",
+    "display_name": "John 'Bulldog' Bloggs",
+    "reference": "MY PAYMENT REFERENCE",
+    "permissions": {
+        "can_edit_reference": true,
+        "can_set_date_in_future": true,
+        "can_delete": true
+    }
+}

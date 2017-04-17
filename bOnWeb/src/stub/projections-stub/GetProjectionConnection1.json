@@ -1,0 +1,232 @@
+{
+  "last_updated": "2016-05-16T16:07:50.074+01:00",
+  "thresholds": {
+    "lower": {
+      "amount": {
+        "value": 50.0,
+        "currency": "GBP"
+      }
+    }
+  },
+  "projection_periods": [
+    {
+      "period": {
+        "from": {
+          "date": "2016-05-11T00:00:00.000+01:00",
+          "available_balance": {
+            "value": 4093.94,
+            "currency": "GBP"
+          }
+        },
+        "to": {
+          "date": "2016-06-16T23:59:59.000+01:00",
+          "available_balance": {
+            "value": 2572.77,
+            "currency": "GBP"
+          }
+        }
+      },
+      "earnings": [
+        {
+          "amount": {
+            "value": 2200.0,
+            "currency": "GBP"
+          },
+          "display_name": "BACS, Recruitment Solutions - Salary",
+          "when": "2016-05-11T13:00:00.000+01:00"
+        }
+      ],
+      "projected_transactions": {
+        "transactions": [
+          {
+            "display_name": "UK Gas Co",
+            "amount": {
+              "value": -45.0,
+              "currency": "GBP"
+            },
+            "type": "Direct Debit",
+            "when": "2016-06-03T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "UK Electric Co",
+            "amount": {
+              "value": -54.0,
+              "currency": "GBP"
+            },
+            "type": "Direct Debit",
+            "when": "2016-06-04T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "Sweat It Out Gym - Monthly membership",
+            "amount": {
+              "value": -18.25,
+              "currency": "GBP"
+            },
+            "type": "Standing Order",
+            "when": "2016-06-05T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "Saving Account S/O",
+            "amount": {
+              "value": -100.0,
+              "currency": "GBP"
+            },
+            "type": "Standing Order",
+            "when": "2016-06-05T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "Broadband & Cable TV",
+            "amount": {
+              "value": -45.0,
+              "currency": "GBP"
+            },
+            "type": "Direct Debit",
+            "when": "2016-06-06T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "CYB Mortgage 11223344",
+            "amount": {
+              "value": -317.21,
+              "currency": "GBP"
+            },
+            "type": "Direct Debit",
+            "when": "2016-06-09T13:00:00.000+01:00"
+          },
+          {
+            "display_name": "Leafyville Borough Council Tax",
+            "amount": {
+              "value": -119.89,
+              "currency": "GBP"
+            },
+            "type": "Direct Debit",
+            "when": "2016-06-10T00:01:00.000+01:00"
+          }
+        ],
+        "total_amount": {
+          "value": -699.35,
+          "currency": "GBP"
+        }
+      },
+      "essential_spend_info": {
+        "essential_spend": [
+          {
+            "amount": {
+              "value": -439.13,
+              "currency": "GBP"
+            },
+            "display_name": "Shoes"
+          },
+          {
+            "amount": {
+              "value": -910.28,
+              "currency": "GBP"
+            },
+            "display_name": "Untagged"
+          },
+          {
+            "amount": {
+              "value": -49.79,
+              "currency": "GBP"
+            },
+            "display_name": "Style"
+          },
+          {
+            "amount": {
+              "value": -310.11,
+              "currency": "GBP"
+            },
+            "display_name": "Finance"
+          },
+          {
+            "amount": {
+              "value": -23.32,
+              "currency": "GBP"
+            },
+            "display_name": "Fuel"
+          },
+          {
+            "amount": {
+              "value": -292.25,
+              "currency": "GBP"
+            },
+            "display_name": "Getting around"
+          },
+          {
+            "amount": {
+              "value": -43.31,
+              "currency": "GBP"
+            },
+            "display_name": "Eating out"
+          },
+          {
+            "amount": {
+              "value": -22.0,
+              "currency": "GBP"
+            },
+            "display_name": "Entertainment"
+          },
+          {
+            "amount": {
+              "value": -15.24,
+              "currency": "GBP"
+            },
+            "display_name": "Staying away"
+          },
+          {
+            "amount": {
+              "value": -394.46,
+              "currency": "GBP"
+            },
+            "display_name": "Mortgage or rent"
+          },
+          {
+            "amount": {
+              "value": -64.61,
+              "currency": "GBP"
+            },
+            "display_name": "Keeping fit"
+          },
+          {
+            "amount": {
+              "value": -212.4,
+              "currency": "GBP"
+            },
+            "display_name": "Utilities"
+          },
+          {
+            "amount": {
+              "value": -2.37,
+              "currency": "GBP"
+            },
+            "display_name": "Kids"
+          },
+          {
+            "amount": {
+              "value": -185.56,
+              "currency": "GBP"
+            },
+            "display_name": "Groceries"
+          },
+          {
+            "amount": {
+              "value": -24.99,
+              "currency": "GBP"
+            },
+            "display_name": "Home"
+          },
+          {
+            "amount": {
+              "value": -32.0,
+              "currency": "GBP"
+            },
+            "display_name": "Pets"
+          }
+        ],
+        "total_amount": {
+          "value": -3021.82,
+          "currency": "GBP"
+        }
+      }
+    }
+  ]
+}

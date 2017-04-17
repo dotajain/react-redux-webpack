@@ -1,0 +1,290 @@
+{
+  "tag_budgets": [
+    {
+      "tag": {
+        "value": "Shoes",
+        "id": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+        "archived": false
+      },
+      "target_amount": {
+        "value": 40.0,
+        "currency": "GBP"
+      }
+    }
+  ],
+  "category_budgets": [
+    {
+      "category": {
+        "value": "Entertainment",
+        "path": "/entertainment",
+        "scheme": "NAG Categories",
+        "id": 2,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 30.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Finance",
+        "path": "/finance",
+        "scheme": "NAG Categories",
+        "id": 3,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 160.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Fuel",
+        "path": "/fuel",
+        "scheme": "NAG Categories",
+        "id": 4,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 30.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Getting around",
+        "path": "/getting around",
+        "scheme": "NAG Categories",
+        "id": 5,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 100.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Groceries",
+        "path": "/groceries",
+        "scheme": "NAG Categories",
+        "id": 6,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 150.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Holidays",
+        "path": "/holidays",
+        "scheme": "NAG Categories",
+        "id": 7,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 0.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Home",
+        "path": "/home",
+        "scheme": "NAG Categories",
+        "id": 8,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 120.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Keeping fit",
+        "path": "/keeping fit",
+        "scheme": "NAG Categories",
+        "id": 9,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 80.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Kids",
+        "path": "/kids",
+        "scheme": "NAG Categories",
+        "id": 10,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 30.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Mortgage or rent",
+        "path": "/mortgage or rent",
+        "scheme": "NAG Categories",
+        "id": 11,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 318.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Eating out",
+        "path": "/eating out",
+        "scheme": "NAG Categories",
+        "id": 12,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 50.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Tech",
+        "path": "/tech",
+        "scheme": "NAG Categories",
+        "id": 13,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 100.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Other",
+        "path": "/other",
+        "scheme": "NAG Categories",
+        "id": 14,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 0.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Pets",
+        "path": "/pets",
+        "scheme": "NAG Categories",
+        "id": 15,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 50.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "School",
+        "path": "/school",
+        "scheme": "NAG Categories",
+        "id": 16,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 0.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Staying away",
+        "path": "/staying away",
+        "scheme": "NAG Categories",
+        "id": 17,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 130.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Style",
+        "path": "/style",
+        "scheme": "NAG Categories",
+        "id": 18,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 150.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Untagged",
+        "path": "/untagged",
+        "scheme": "NAG Categories",
+        "id": 19,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 0.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Utilities",
+        "path": "/utilities",
+        "scheme": "NAG Categories",
+        "id": 20,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 260.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Well being",
+        "path": "/well being",
+        "scheme": "NAG Categories",
+        "id": 21,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 0.0,
+        "currency": "GBP"
+      }
+    },
+    {
+      "category": {
+        "value": "Earnings",
+        "path": "/earnings",
+        "scheme": "NAG Categories",
+        "id": 22,
+        "archived": false
+      },
+      "target_amount": {
+        "value": 2200.0,
+        "currency": "GBP"
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+@import '../mixins/responsive';
+@import '../variables/color';
+
+$site-background-color: #fff;
+
+html {
+	height: 100%;
+}
+
+// scss-lint:disable IdSelector
+html,
+body,
+#react {
+	font-size: $font-size-base;
+	min-height: 100%;
+	min-width: $body-min-width;
+
+	@include responsive-max($screen-md) {
+		.b &:not {
+			font-size: $font-size-base-mobile;
+		}
+	}
+
+}
+// scss-lint:enable IdSelector
+
+body {
+	background-color: $site-background-color;
+	color: palette((color: black)...);
+}
+
+header {
+	padding-left: 19px;
+
+	@include responsive-max($screen-md) {
+		padding-left: 0;
+	}
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 2px solid $input-focus-border-color;
+
+	.dyb & {
+		outline: 2px solid $input-focus-border-color-dyb;
+	}
+}
+
+hr {
+	background-color: palette((color: black)...);
+	border: 0;
+	color: palette((color: black)...);
+	height: 1px;
+	margin: $standard-spacing 0 $standard-spacing*2;
+
+	@include responsive-max($screen-md) {
+		margin-bottom: $standard-spacing;
+		margin-top: 0;
+	}
+}
+
+.cb,
+.yb {
+	font-family: CYBHouschkaAltProMedium;
+}
+
+.dyb {
+	font-family: GalanoGrotesqueRegular;
+
+	@include responsive-between(990, 1200) {
+		.visible-md {
+			display: none;
+		}
+	}
+}
+
+.row {
+	clear: both;
+}
+
+.font-bold {
+	// These must use !important to ensure the brand font
+	// is used and isn't overridden by a higher specificity later
+	.cb &,
+	.yb & {
+		// scss-lint:disable ImportantRule
+		font-family: CYBHouschkaAltProBold !important;
+		// scss-lint:enable ImportantRule
+	}
+
+	.dyb & {
+		// scss-lint:disable ImportantRule
+		font-family: GalanoGrotesqueSemiBold !important;
+		// scss-lint:enable ImportantRule
+	}
+}
+
+.margin-top {
+	margin-top: $standard-spacing;
+}
+
+.margin-bottom {
+	margin-bottom: $standard-spacing;
+}
+
+.padding-top {
+	padding-top: $standard-spacing;
+}
+
+.padding-bottom {
+	padding-bottom: $standard-spacing;
+}
+
+.margin-top-0 {
+	margin-top: 0;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+
+.padding-top-0 {
+	padding-top: 0;
+}
+
+.padding-bottom-0 {
+	padding-bottom: 0;
+}
+
+.margin-left {
+	margin-left: $standard-spacing;
+}
+
+.margin-right {
+	margin-right: $standard-spacing;
+}
+
+.padding-left {
+	padding-left: $standard-spacing;
+}
+
+.padding-right {
+	padding-right: $standard-spacing;
+}
+
+.blur {
+	// Filter not part of autoprefix
+	// scss-lint:disable VendorPrefix
+	-webkit-filter: blur(10px);
+	// scss-lint:enable VendorPrefix
+	filter: blur(10px);
+}
+
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+
+
+ul,
+ol {
+	margin-bottom: $standard-spacing;
+
+	.offer-page & {
+		margin-bottom: $standard-spacing*2;
+	}
+}

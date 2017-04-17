@@ -1,0 +1,299 @@
+{
+  "hits": {
+    "total": 4,
+    "hits": [
+      {
+        "_source": {
+          "id": "fd55e9c5-351e-4593-92f3-a5e7e40790d3",
+          "ordinal": "1",
+          "this_account": {
+            "id": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Fee",
+            "posted": true,
+            "when": "2016-05-28T13:00:00.000+01:00",
+            "amount": {
+              "value": -215.98,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 87202.46,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "f6519729-b036-4a6f-a33f-debc88fcec76",
+          "ordinal": "2",
+          "this_account": {
+            "id": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-05-16T00:01:00.000+01:00",
+            "amount": {
+              "value": 317.21,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 87418.44,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "293c7630-92e2-42b7-ac64-479b36625ff6",
+          "ordinal": "3",
+          "this_account": {
+            "id": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Charge",
+            "posted": true,
+            "when": "2016-04-27T13:00:00.000+01:00",
+            "amount": {
+              "value": -215.98,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 87101.23,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "6c03415d-0b00-4059-9267-b3b23316ae2c",
+          "ordinal": "4",
+          "this_account": {
+            "id": "3420d6c1-fb60-4ac5-a226-0d741f498ad2",
+            "type": "mortgage",
+            "product": {
+              "code": "901",
+              "name": "2 year fixed rate",
+              "description": "2 year fixed rate mortgage"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": false,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": false,
+              "/account/payments/uk/default/out": false,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": "650000",
+            "number": "11223344",
+            "metadata": {
+              "display_name": "Mortgage"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-16T16:00:00.000+01:00",
+            "amount": {
+              "value": 317.21,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 87317.21,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Bob Brown / 12345678",
+              "medium": "Bob Brown / 12345678",
+              "large": "Bob Brown / 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

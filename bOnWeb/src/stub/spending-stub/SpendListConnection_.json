@@ -1,0 +1,1450 @@
+{
+  "aggregations": {
+    "other_accounts": {
+      "tags": {
+        "buckets": [
+          {
+            "key": "4a3136d9-07fe-48e0-bc1d-d9a7749b3d2f",
+            "doc_count": 5,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 4,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -270.14
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -27.99
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "tag_name": {
+              "buckets": [
+                {
+                  "key": "Shoes"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "categories": {
+        "buckets": [
+          {
+            "key": "19",
+            "doc_count": 17,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 7,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 64.07999999999996
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 10,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -334.0799999999999
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Untagged"
+                }
+              ]
+            }
+          },
+          {
+            "key": "18",
+            "doc_count": 5,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -92.8
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 3,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -29.99
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Style"
+                }
+              ]
+            }
+          },
+          {
+            "key": "12",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -3.99
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Eating out"
+                }
+              ]
+            }
+          },
+          {
+            "key": "3",
+            "doc_count": 4,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -146.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 3,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -103.37
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Finance"
+                }
+              ]
+            }
+          },
+          {
+            "key": "21",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -12.12
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Well being"
+                }
+              ]
+            }
+          },
+          {
+            "key": "6",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -185.56
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Groceries"
+                }
+              ]
+            }
+          },
+          {
+            "key": "10",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -2.37
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Kids"
+                }
+              ]
+            }
+          },
+          {
+            "key": "11",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -394.46
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Mortgage or rent"
+                }
+              ]
+            }
+          },
+          {
+            "key": "17",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -15.239999999999995
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Staying away"
+                }
+              ]
+            }
+          },
+          {
+            "key": "15",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -32.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Pets"
+                }
+              ]
+            }
+          },
+          {
+            "key": "8",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -24.99
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Home"
+                }
+              ]
+            }
+          },
+          {
+            "key": "22",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 2300.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 2200.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Earnings"
+                }
+              ]
+            }
+          },
+          {
+            "key": "20",
+            "doc_count": 5,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 3,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -212.4
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -173.89
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Utilities"
+                }
+              ]
+            }
+          },
+          {
+            "key": "9",
+            "doc_count": 3,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -64.61
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -18.25
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Keeping fit"
+                }
+              ]
+            }
+          },
+          {
+            "key": "5",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -77.25
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -215.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Getting around"
+                }
+              ]
+            }
+          },
+          {
+            "key": "4",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -23.32
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Fuel"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "credit_cards": {
+      "tags": {
+        "buckets": [
+
+        ]
+      },
+      "categories": {
+        "buckets": [
+          {
+            "key": "15",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 31.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 43.25
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Pets"
+                }
+              ]
+            }
+          },
+          {
+            "key": "8",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 230.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Home"
+                }
+              ]
+            }
+          },
+          {
+            "key": "13",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 78.66
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Tech"
+                }
+              ]
+            }
+          },
+          {
+            "key": "19",
+            "doc_count": 2,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 2,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": -480.95
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Untagged"
+                }
+              ]
+            }
+          },
+          {
+            "key": "7",
+            "doc_count": 3,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 3,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 329.72
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Holidays"
+                }
+              ]
+            }
+          },
+          {
+            "key": "9",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 199.99
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Keeping fit"
+                }
+              ]
+            }
+          },
+          {
+            "key": "12",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 29.77
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Eating out"
+                }
+              ]
+            }
+          },
+          {
+            "key": "4",
+            "doc_count": 1,
+            "month": {
+              "buckets": [
+                {
+                  "key_as_string": "2016-06-01T00:00:00.000+01:00",
+                  "doc_count": 0,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 0.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "key_as_string": "2016-05-01T00:00:00.000+01:00",
+                  "doc_count": 1,
+                  "spend": {
+                    "buckets": [
+                      {
+                        "key": "GBP",
+                        "amount": {
+                          "value": 56.0
+                        },
+                        "aggs": {
+                          "buckets": [
+                            {
+                              "key": "F"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "cat_name": {
+              "buckets": [
+                {
+                  "key": "Fuel"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

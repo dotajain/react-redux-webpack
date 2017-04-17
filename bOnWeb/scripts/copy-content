@@ -1,0 +1,18 @@
+#!/bin/bash
+
+shopt -s extglob
+
+bank="$@"
+
+function copy() {
+	echo "${bank} Copying to $1"
+	cp -r !(config.js) "../../$1/static/"
+}
+
+cd "config/settings/${bank}/INT3/static/" && \
+	copy 'FAT1' && \
+	copy 'SIT6' && \
+	copy 'TAT' && \
+	copy 'PROD'
+
+shopt -u extglob

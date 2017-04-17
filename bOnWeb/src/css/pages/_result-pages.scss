@@ -1,0 +1,270 @@
+@import '../mixins/dyb-header';
+@import '../mixins/dyb-page-colors';
+
+.result-page {
+	font-family: CYBHouschkaAltProLight;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: $result-page-width;
+
+	@include responsive-max($screen-md) {
+		width: 100%;
+	}
+
+	.dyb &:not(.white-board) {
+		color: palette((color: white)...);
+
+		#{$header-tags} {
+			color: palette((color: white)...);
+		}
+
+		a {
+			color: palette((color: white)...);
+		}
+	}
+
+	.dyb & {
+		font-family: GalanoGrotesqueLight;
+		margin-top: ($standard-spacing * 2) + $header-height-dyb;
+
+		@include responsive-max($screen-md) {
+			margin-top: $header-height-dyb - $standard-spacing;
+		}
+
+		hr {
+			display: none;
+		}
+
+	}
+
+	.result-section > img {
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 80px;
+		padding-top: 80px;
+
+		@include responsive-max($screen-md) {
+			max-width: 150px;
+			padding-bottom: 40px;
+			padding-top: 40px;
+			width: 50%;
+		}
+	}
+
+	.component-header-subtitle {
+		font-size: $font-size-xxlarge;
+		line-height: 50px;
+		margin: 0;
+		padding-bottom: 30px;
+		padding-left: 50px;
+		padding-top: 30px;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-large;
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+	}
+
+	.offer-info {
+		margin-left: auto;
+		margin-right: auto;
+
+		.cb &,
+		.yb & {
+			background: palette((color: grey, tone: light)...);
+			margin-top: 70px;
+			padding: 20px;
+		}
+
+		.dyb & {
+			background: palette((color: white)...);
+			font-size: $font-size-small;
+		}
+	}
+}
+
+.submission-page-wrapper {
+	@include dyb-header('header-submission-page.jpg');
+	@include dyb-color((color: purple)...);
+}
+
+.deferred-page-wrapper {
+	@include dyb-header('header-deferred-page.jpg');
+	@include dyb-color((color: blue)...);
+}
+
+.contact-bank-page-wrapper {
+	@include dyb-header('header-deferred-page.jpg');
+	@include dyb-color((color: blue)...);
+}
+
+.contact-bank-page-wrapper-bapp {
+	@include dyb-header('header-login.jpg');
+	@include dyb-color((color: blue)...);
+}
+.declined-page-wrapper {
+	@include dyb-header('header-declined-page.jpg');
+	@include dyb-color((color: red)...);
+}
+
+.decline-page-wrapper {
+	@include dyb-header('header-decline-page.jpg');
+	@include dyb-color((color: blue)...);
+
+	.dyb & .decline-content a {
+		color: palette((color: blue)...);
+	}
+}
+
+.account-opened-page-wrapper {
+	@include dyb-header('header-account-opened-page.jpg');
+	@include dyb-color((color: green)...);
+}
+
+.error-page-container {
+	@include dyb-header('header-error-page.jpg');
+	@include dyb-color((color: pink)...);
+}
+
+.result-section {
+	.cb &,
+	.yb & {
+		text-align: center;
+	}
+
+	&:not(.white-board) .dyb {
+		text-align: left;
+	}
+}
+
+.debitcard-result-section {
+	margin-bottom: 55px;
+
+	@include responsive-max($screen-md) {
+		margin-bottom: 25px;
+	}
+}
+
+.error-page {
+
+	.dyb & {
+		margin-top: ($standard-spacing * 2) + $header-height-dyb;
+
+		.result-section > img {
+			height: 140px;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			width: 100px;
+		}
+
+		.error-text {
+			text-align: center;
+		}
+	}
+
+	.cb &,
+	.yb & {
+		p {
+			font-size: $font-size-medium;
+		}
+
+		.error-text {
+			text-align: center;
+		}
+	}
+}
+
+.offer-page {
+	@include dyb-color((color: pink)...);
+
+	.offer-result-section .component-title {
+		padding-bottom: $standard-spacing * 2;
+	}
+
+	.component-header-subtitle {
+		padding: 0 0 $standard-spacing;
+
+		.cb & {
+			font-size: $font-size-large;
+		}
+
+		.dyb & {
+			color: palette((color: pink, brand: dyb)...);
+			font-size: $font-size-large;
+		}
+	}
+
+	hr {
+		background-color: palette((color: grey)...);
+		display: block;
+		margin: $standard-spacing 0 $standard-spacing * 2;
+	}
+
+	.debitcard-result-section {
+		margin-bottom: 0;
+
+
+	}
+
+	.dyb & {
+		.component-header-subtitle {
+			color: palette((color: pink, brand: dyb)...);
+			font-size: $font-size-medium;
+			padding: $standard-spacing;
+		}
+	}
+}
+
+
+
+.submission-page {
+	img {
+		margin-top: 20px;
+	}
+}
+
+.account-opened-page {
+	.dyb & {
+		.btn-primary {
+			border-color: palette((color: white)...);
+		}
+	}
+}
+
+.contact-bank-page,
+.deferred-page {
+	p {
+		text-align: center;
+	}
+}
+
+.white-board {
+	.dyb & {
+		background-color: palette((color: white)...);
+		border-radius: 5px;
+		color: palette((color: grey, tone:x-dark)...);
+		font-family: GalanoGrotesqueRegular;
+		margin-bottom: $standard-spacing * 2;
+		padding: ($standard-spacing * 2) 5%;
+
+		@include responsive-max($screen-md) {
+			padding: $standard-spacing 5%;
+		}
+
+		p,
+		#{$header-tags} {
+			font-family: GalanoGrotesqueRegular;
+		}
+
+		ol {
+			list-style: disc;
+
+			li {
+				padding-bottom: $standard-spacing;
+			}
+		}
+	}
+}
+

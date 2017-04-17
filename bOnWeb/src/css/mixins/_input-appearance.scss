@@ -1,0 +1,10 @@
+// Apply appearance styling for inputs from browsers Firefox, Webkit, IE10, IE11
+@mixin x-appearance ($value) {
+	-webkit-appearance: $value;
+	-moz-appearance: $value;
+	appearance: $value;
+
+	&::-ms-expand {
+		display: none;
+	}
+}

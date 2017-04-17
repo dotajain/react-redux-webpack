@@ -1,0 +1,34 @@
+{
+  "presets": ["es2015", "react", "stage-0"],
+  "ignore": [
+     "src/js/vendor/**/*",
+  ],
+  "compact":false,
+  "plugins": [
+    ["module-alias", [
+      { "src": "./src/js/actions", "expose": "actions" },
+      { "src": "./src/js/api", "expose": "api" },
+      { "src": "./src/js/components", "expose": "components" },
+      { "src": "./src/js/config", "expose": "config" },
+      { "src": "./src/js/constants", "expose": "constants" },
+      { "src": "./src/js/dispatcher", "expose": "dispatcher" },
+      { "src": "./src/js/router", "expose": "router" },
+      { "src": "./src/js/stores", "expose": "stores" },
+      { "src": "./src/js/utils", "expose": "utils" },
+      { "src": "./src/static", "expose": "static" },
+    ]]
+  ],
+  "env": {
+    "development": {
+      "plugins": [["react-transform", {
+        "transforms": [{
+          "transform": "react-transform-catch-errors",
+          "imports": [
+            "react",
+            "redbox-react"
+          ]
+        }]
+      }]]
+    }
+  }
+}

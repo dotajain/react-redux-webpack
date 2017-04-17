@@ -1,0 +1,62 @@
+$grey: #ccc;
+$black: #000;
+
+
+.carouselDot {
+	.carousel {
+		perspective: 1500rem;
+		text-align: center;
+
+		&__dots {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		&__dot {
+			color: $grey;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 3rem;
+			padding: 0 1rem;
+
+			&--active {
+				color: $black;
+			}
+	 }
+
+		&__dot-input {
+			display: none;
+		}
+
+		&__slider {
+			height: 25rem;
+			position: relative;
+			transform-style: preserve-3d;
+		}
+
+		&__slide {
+			$translate-amount: 40rem;
+			backface-visibility: hidden;
+			left: 0;
+			opacity: .5;
+			position: absolute;
+			top: 0;
+			transform: rotateY(65deg) translateZ($translate-amount);
+			transition-duration: .25s, .5s, .5s;
+			transition-property: opacity, transform, visibility;
+			transition-timing-function: ease-out;
+			visibility: hidden;
+
+			&--shown {
+				opacity: 1;
+				transform: rotateY(0) translateZ(0);
+				visibility: visible;
+			}
+
+			&--leaving {
+				transform: rotateY(-90deg) translateZ(-$translate-amount);
+			}
+	 }
+
+	}
+}

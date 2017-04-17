@@ -1,0 +1,83 @@
+@import '../mixins/responsive';
+
+$progress-icon-width: 116px;
+$progress-icon-height: 116px;
+
+.progress-bar {
+	.b &:not {
+		background: $site-background-color;
+		box-shadow: none;
+		padding: 20px;
+		width: 100%;
+
+		@include responsive-max($screen-md) {
+			display: none;
+		}
+
+		ol {
+			background: url('../images/common/progress-bar-line.png') 0 54px repeat-x;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			color: palette((color: black)...);
+			display: inline-block;
+			font-size: $font-size-medium;
+			line-height: $font-size-medium;
+			margin: 0;
+			text-align: center;
+			vertical-align: top;
+			width: 25%;
+
+			em {
+				display: block;
+				height: $progress-icon-height;
+				margin: 0 auto 10px;
+				text-indent: -9999px;
+				width: $progress-icon-width;
+
+				.cb & {
+					background: url('../images/cb/progress-bar-steps.png') 0 0 no-repeat;
+				}
+
+				.yb & {
+					background: url('../images/yb/progress-bar-steps.png') 0 0 no-repeat;
+				}
+			}
+
+			&.progress-bar-item-0 em {background-position: 0 0;}
+			&.progress-bar-item-1 em {background-position: (-1 * $progress-icon-width) 0;}
+			&.progress-bar-item-2 em {background-position: (-2 * $progress-icon-width) 0;}
+
+			&.progress-bar-item-0.progress-bar-item-active em {background-position: 0 (-1 * $progress-icon-height);}
+			&.progress-bar-item-1.progress-bar-item-active em {background-position: (-1 * $progress-icon-width) (-1 * $progress-icon-height);}
+			&.progress-bar-item-2.progress-bar-item-active em {background-position: (-2 * $progress-icon-width) (-1 * $progress-icon-height);}
+
+			&:first-child {
+				background: url('../images/common/progress-bar-white-left.png') 50% 0 repeat-y;
+			}
+
+			&:nth-last-child(2) {
+				background: url('../images/common/progress-bar-white-right.png') 50% 0 repeat-y;
+			}
+
+			&.completion-time {
+				background: palette((color: white)...);
+
+				em {
+					background: url('../images/common/step-clock.png') 0 0 no-repeat;
+					display: block;
+					height: 110px;
+					margin: 3px auto 13px;
+					text-indent: -9999px;
+					width: 96px;
+				}
+
+				small {
+					display: block;
+				}
+			}
+		}
+	}
+}

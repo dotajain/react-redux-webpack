@@ -1,0 +1,347 @@
+@charset 'UTF-8';
+@import '../mixins/responsive';
+@import '../vendor/bootstrap/mixins/vendor-prefixes';
+
+@font-face {
+	font: {
+		family: 'b-font';
+		style: normal;
+		weight: normal;
+	}
+	src: url('../fonts/b-font.eot');
+	src: url('../fonts/b-font.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/b-font.svg#b-font') format('svg'),
+		url('../fonts/b-font.woff') format('woff'),
+		url('../fonts/b-font.ttf') format('truetype');
+}
+
+[data-icon]:before {
+	// scss-lint:disable ImportantRule
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	content: attr(data-icon);
+	font: {
+		family: 'b-font' !important;
+		style: normal !important;
+		variant: normal !important;
+		weight: normal !important;
+	}
+	line-height: 1;
+	speak: none;
+	text-transform: none !important;
+	// scss-lint:disable ImportantRule
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+	// scss-lint:disable ImportantRule
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font: {
+		family: 'b-font' !important;
+		style: normal !important;
+		variant: normal !important;
+		weight: normal !important;
+	}
+	line-height: 1;
+	speak: none;
+	text-transform: none !important;
+	// scss-lint:disable ImportantRule
+
+}
+
+.icon-small-dropdown:before {
+	content: '\62';
+}
+
+.icon-item-dots:before {
+	content: '\64';
+}
+
+.icon-top:before {
+	content: '\70';
+}
+
+.icon-case-1:before {
+	content: '\77';
+}
+
+.icon-twitter:before {
+	content: '\7a';
+}
+
+.icon-facebook:before {
+	content: '\41';
+}
+
+.icon-linkedin:before {
+	content: '\42';
+}
+
+.icon-no:before {
+	content: '\43';
+}
+
+.icon-clear:before {
+	content: '\4b';
+}
+
+.icon-alerts:before {
+	content: '\4d';
+}
+
+.icon-attention:before {
+	content: '\4e';
+}
+
+.icon-back:before {
+	content: '\4f';
+}
+
+.icon-calendar:before {
+	content: '\50';
+}
+
+.icon-case:before {
+	content: '\51';
+}
+
+.icon-close:before {
+	content: '\52';
+}
+
+.icon-commitments:before {
+	content: '\53';
+}
+
+.icon-confirm:before {
+	content: '\54';
+}
+
+.icon-currency:before {
+	content: '\55';
+}
+
+.icon-delete:before {
+	content: '\56';
+}
+
+.icon-done:before {
+	content: '\57';
+}
+
+.icon-edit:before {
+	content: '\58';
+}
+
+.icon-error:before {
+	content: '\59';
+}
+
+.icon-goals:before {
+	content: '\5a';
+}
+
+.icon-help-demo:before {
+	content: '\30';
+}
+
+.icon-help-email:before {
+	content: '\31';
+}
+
+.icon-help-get-help:before {
+	content: '\32';
+}
+
+.icon-help-questions:before {
+	content: '\33';
+}
+
+.icon-help-reminders:before {
+	content: '\34';
+}
+
+.icon-help-spending:before {
+	content: '\35';
+}
+
+.icon-help-talk:before {
+	content: '\36';
+}
+
+.icon-helps:before {
+	content: '\37';
+}
+
+.icon-information:before {
+	content: '\38';
+}
+
+.icon-interest-rates:before {
+	content: '\39';
+}
+
+.icon-joint-account:before {
+	content: '\21';
+}
+
+.icon-logout:before {
+	content: '\22';
+}
+
+.icon-mail:before {
+	content: '\23';
+}
+
+.icon-more:before {
+	content: '\24';
+}
+
+.icon-move:before {
+	content: '\25';
+}
+
+.icon-opt-out:before {
+	content: '\26';
+}
+
+.icon-overdrafts:before {
+	content: '\27';
+}
+
+.icon-page-back:before {
+	content: '\28';
+}
+
+.icon-payees:before {
+	content: '\29';
+}
+
+.icon-payments:before {
+	content: '\2a';
+}
+
+.icon-pound:before {
+	content: '\2b';
+}
+
+.icon-search:before {
+	content: '\2c';
+}
+
+.icon-settings:before {
+	content: '\2d';
+}
+
+.icon-shopping:before {
+	content: '\2e';
+}
+
+.icon-spending:before {
+	content: '\3a';
+}
+
+.icon-spends:before {
+	content: '\3b';
+}
+
+.icon-swipe-left:before {
+	content: '\3c';
+}
+
+.icon-swipe-right:before {
+	content: '\3d';
+}
+
+.icon-tag:before {
+	content: '\3e';
+}
+
+.icon-waiting:before {
+	content: '\3f';
+}
+
+.icon-wallet:before {
+	content: '\40';
+}
+
+.icon-warning:before {
+	content: '\5b';
+}
+
+.icon-you:before {
+	content: '\5d';
+}
+
+.icon-your-payments:before {
+	content: '\5e';
+}
+
+.icon-add:before {
+	content: '\61';
+}
+
+.icon-plus:before {
+	@include prefix(transform, rotate(45deg), webkit ms moz);
+	content: '\4b';
+	display: inline-block;
+	transform: rotate(45deg);
+}
+
+.icon {
+	&.icon-close {
+		// scss-lint:disable ImportantRule
+		font: {
+			size: 18px !important;
+		}
+		vertical-align: -2px !important;
+	}
+
+	&.icon-edit {
+		// scss-lint:disable ImportantRule
+		font-size: 20px !important;
+		position: relative;
+		text-align: center !important;
+		top: 2px;
+	}
+
+	&.icon-fscs {
+		background: {
+			image: url($b-image-path + 'fscs.png');
+			position: left top;
+			repeat: no-repeat;
+			size: 100%;
+		}
+		display: block;
+		height: 90px;
+		margin: -10px 0 17px;
+		width: 90px;
+
+		@include responsive-max($screen-sm) {
+			display: inline-block;
+			margin: -20px 0 0;
+		}
+	}
+
+	&.icon-down:before {
+		content: '\62';	
+		position: relative;
+		top: 4px;
+	}
+
+	&.icon-up:before {
+		@include prefix(transform, scale(1, -1), webkit ms moz);
+		content: '\62';	
+		display: inline-block;
+		position: relative;
+		top: 4px;
+	}
+}
+
+.icon-page-next:before {
+	@include prefix(transform, scale(-1, 1), webkit ms moz);
+	content: '\28';
+	display: inline-block;
+	position: relative;
+}

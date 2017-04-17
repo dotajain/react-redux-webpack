@@ -1,0 +1,89 @@
+// Vendor Overrides
+$bootstrap-sass-asset-helper:	false;
+
+// Vendor stylesheets
+@import 'vendor/normalize';
+@import 'vendor/bootstrap';
+@import 'vendor/datepicker';
+@import 'vendor/animate/animate';
+@import 'vendor/react-select';
+@import 'vendor/slick';
+@import 'vendor/sidebar';
+@import 'vendor/token';
+@import 'vendor/typeahead';
+@import 'vendor/daterangepicker';
+
+// Mixins
+@import 'mixins/header';
+@import 'mixins/b-mixins';
+
+// Reusable styles as modules
+@import 'variables/font';
+@import 'variables/paths';
+@import 'variables/account';
+@import 'variables/structure';
+@import 'variables/color';
+@import 'variables/z-index';
+@import 'modules/toggle';
+@import 'modules/palette';
+@import 'modules/keypad';
+@import 'modules/account-cards';
+@import 'modules/loader';
+@import 'vendor/vendor-overrides';
+@import 'modules/custom-font';
+@import 'modules/custom';
+@import 'modules/base';
+@import 'modules/griddle';
+@import 'modules/animations';
+@import 'modules/sidebar';
+@import 'modules/account-opening';
+@import 'modules/b';
+@import 'modules/b-font';
+@import 'modules/donut';
+@import 'modules/inputs';
+@import 'modules/inputs/radio';
+@import 'modules/inputs/checkbox';
+@import 'modules/inputs/button';
+@import 'modules/inputs/datepicker';
+@import 'modules/loading-spinner';
+@import 'modules/modal';
+@import 'modules/timeline/timeline';
+@import 'modules/help';
+@import 'modules/carousel';
+@import 'modules/carouselDot';
+@import 'modules/overlay';
+@import 'modules/keypad';
+@import 'modules/griddleCustom';
+@import 'modules/toggle';
+
+
+// Page styles
+@import 'pages/landing-page';
+@import 'pages/personal-details';
+@import 'pages/employment-details';
+@import 'pages/portal';
+@import 'pages/side-progress-bar';
+@import 'pages/progress-bar';
+@import 'pages/review';
+@import 'pages/result-pages';
+@import 'pages/offer';
+@import 'pages/callValidate3D';
+@import 'modules/timer-section';
+@import 'pages/login-page';
+@import 'pages/registration';
+@import 'pages/otp-authentication';
+@import 'pages/switch';
+@import 'pages/authentication-page';
+@import 'pages/b/payee';
+@import 'pages/b/payment';
+@import 'pages/b/help';
+@import 'pages/b/thank-you';
+@import 'pages/b/savingpots';
+@import 'pages/b/addNewPayee';
+@import 'pages/b/alerts';
+@import 'pages/b/create-alert';
+@import 'pages/b/spendings';
+@import 'pages/b/projection';
+@import 'pages/b/account-details';
+@import 'pages/b/tenner-page';
+@import 'utility';

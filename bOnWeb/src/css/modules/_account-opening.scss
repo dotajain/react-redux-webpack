@@ -1,0 +1,436 @@
+@import '../mixins/responsive';
+
+.account-opening {
+	min-height: 100vh;
+
+	label {
+		font-weight: normal;
+	}
+
+	#{$header-tags},
+	p {
+		font-family: CYBHouschkaAltProMedium;
+		margin: 0;
+		padding-bottom: $standard-spacing;
+
+		.dyb & {
+			font-family: GalanoGrotesqueRegular;
+		}
+	}
+
+	h1,
+	.h1-style {
+		font-size: $font-size-xxlarge;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-xxlarge-mobile;
+		}
+
+	}
+
+	h2,
+	.h2-style {
+		font-size: $font-size-xlarge;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-xlarge-mobile;
+		}
+	}
+
+	h3,
+	.h3-style {
+		font-size: $font-size-large;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-large-mobile;
+		}
+	}
+
+	h4,
+	h5,
+	.h4-style,
+	.h5-style {
+		font-size: $font-size-medium;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-medium-mobile;
+		}
+	}
+
+	hr {
+		.dyb {
+			display: none;
+		}
+	}
+
+	p {
+		font-family: CYBHouschkaAltProMedium;
+
+		.dyb & {
+			font-family: GalanoGrotesqueRegular;
+		}
+	}
+
+	header {
+		color: palette((color: white)...);
+		line-height: 100px;
+
+		.dyb & {
+			position: fixed;
+			transition: all ease-in .3s .3s;
+			width: 100%;
+			z-index: $z-index-header;
+		}
+
+		.header-title-column {
+			padding-bottom: 25px;
+			padding-left: 20px;
+			padding-top: 35px;
+
+			@include responsive-max($screen-md) {
+				padding-bottom: 45px;
+				padding-left: 15px;
+				padding-right: 0;
+				padding-top: 10px;
+			}
+		}
+	}
+
+	.main-container {
+		border-radius: 3px;
+		padding-bottom: 40px;
+		padding-top: 63px;
+
+
+		@include responsive-max($screen-md) {
+			padding-top: 0;
+		}
+
+		.dyb & {
+			box-shadow: none;
+
+			@include responsive-max($screen-md) {
+				box-shadow: 0;
+				padding-bottom: 15px;
+			}
+		}
+	}
+
+	.screenreader {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	a:not([class*=btn]) {
+		text-decoration: underline;
+
+		.cb & {
+			color: palette((color: red, brand: cb)...);
+		}
+
+		.yb & {
+			color: palette((color: blue, brand: yb)...);
+		}
+	}
+
+	.page-column-wrapper {
+		border-right: 1px solid palette((color: black)...);
+		padding-left: 5%;
+		padding-right: 5%;
+
+		@include responsive-max($screen-md) {
+			border: 0;
+		}
+
+		.dyb & {
+			background-color: palette((color: white)...);
+			border: 0;
+			border-radius: 5px;
+			box-shadow: 0 0 15px 5px rgba(0, 0, 0, .10);
+			padding-bottom: ($standard-spacing * 2);
+			padding-top: ($standard-spacing * 2);
+
+			@include responsive-max($screen-lg) {
+				margin-left: 4.16%;
+				margin-right: 4.16%;
+			}
+
+			@include responsive-max($screen-md) {
+				margin-top: $standard-spacing;
+				padding-bottom: $standard-spacing;
+				padding-top: $standard-spacing;
+			}
+		}
+	}
+
+	.top-paragraph {
+		margin-bottom: $standard-spacing;
+
+		@include responsive-max($screen-md) {
+			font-size: $font-size-medium-mobile;
+			margin-bottom: 15px;
+			margin-top: 15px;
+		}
+
+		.cb &,
+		.yb & {
+			font-size: $font-size-medium;
+		}
+
+	}
+
+	.component-header {
+		padding-bottom: $standard-spacing;
+
+		&.no-subtitle {
+			> .component-header-subtitle {
+				display: none;
+			}
+			.account-locked-title {
+				color: #57595e !important;
+    			font-size: 34px;
+    			font-family: GalanoGrotesqueMedium;
+			}
+			.component-title {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.component-header-subtitle,
+	.intro-paragraph {
+
+		.cb &,
+		.yb & {
+			margin-bottom: $standard-spacing;
+
+			@include responsive-max($screen-md) {
+				margin-bottom: 25px;
+			}
+		}
+	}
+
+	.bottom-navigation-box {
+		margin-top: $standard-spacing;
+
+		.btn {
+			overflow: hidden;
+			position: relative;
+		}
+
+		.loading-spinner {
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: $z-index-spinner;
+
+			img {
+				height: 100%;
+				width: auto;
+			}
+
+			.dyb & {
+				background-color: palette((color: grey)...);
+			}
+
+			.cb & {
+				background-color: palette((color: red, brand: cb)...);
+			}
+
+			.yb & {
+				background-color: palette((color: blue, brand: yb)...);
+			}
+
+		}
+
+		.dyb & {
+			@include responsive-max($screen-md) {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.btn-primary {
+		background-color: $dark-grey-color;
+		border-color: $dark-grey-color;
+		font-size: $font-size-small;
+		font-weight: bold;
+		height: $button-height;
+		line-height: 0;
+		min-width: $button-width;
+		white-space: nowrap;
+
+		.dyb & {
+			background-color: palette((color: white)...);
+			border: 2px solid palette((color: grey)...);
+			border-radius: 5px;
+			color: palette((color: grey, tone: dark)...);
+			font-weight: normal;
+			line-height: 0;
+		}
+	}
+
+	.btn-document-download {
+		background: palette((color: grey)...);
+		border-color: palette((color: grey)...);
+		color: palette((color: black)...);
+
+		@include responsive-max($screen-md) {
+			border: 0;
+			width: 100%;
+		}
+	}
+
+	.btn-next,
+	.btn-decline {
+
+		@include responsive-max($screen-md) {
+			.dyb & {
+				width: 100%;
+			}
+		}
+
+		.cb & {
+			background-color: palette((color: red, brand: cb)...);
+			border-color: palette((color: red, brand: cb)...);
+		}
+
+		.yb & {
+			background-color: palette((color: blue, brand: yb)...);
+			border-color: palette((color: blue, brand: yb)...);
+		}
+
+	}
+
+	.btn-decline {
+
+		@include responsive-max($screen-md) {
+			background-color: palette((color: white)...);
+			border: 0;
+
+			.cb & {
+				background-color: palette((color: white)...);
+				color: palette((color: red, brand: cb)...);
+				text-decoration: underline;
+			}
+
+			.yb & {
+				background-color: palette((color: white)...);
+				color: palette((color: blue, brand: yb)...);
+				text-decoration: underline;
+			}
+
+			.dyb & {
+				margin-top: $standard-spacing;
+			}
+		}
+	}
+
+	.btn-back {
+		color: palette((color: black)...);
+
+		@include responsive-max($screen-md) {
+			background-color: palette((color: white)...);
+			border: 0;
+
+			.cb & {
+				color: palette((color: red, brand: cb)...);
+				text-decoration: underline;
+			}
+
+			.yb & {
+				color: palette((color: blue, brand: yb)...);
+				text-decoration: underline;
+			}
+
+			.dyb & {
+				margin-top: $standard-spacing;
+				width: 100%;
+			}
+		}
+	}
+
+	.btn-disabled {
+		background-color: $button-disabled-color;
+		border-color: $button-disabled-color;
+	}
+
+	.btn-postcode-remove-input {
+		margin-bottom: 20px;
+
+	}
+
+	.btn-postcode-input,
+	.btn-postcode-remove-input {
+
+		@include responsive-max($screen-md) {
+			margin-left: 0;
+			margin-top: 15px;
+			width: 100%;
+		}
+
+
+		.cb & {
+			background-color: $button-next-color-cb;
+			border-color: $button-next-color-cb;
+		}
+
+		.yb & {
+			background-color: $button-next-color-yb;
+			border-color: $button-next-color-yb;
+		}
+
+		.loading-spinner {
+			margin-top: -16px;
+		}
+	}
+
+	.paragraph-question {
+		display: table-cell;
+		height: $input-height;
+		vertical-align: middle;
+		width: $input-width;
+
+		@include responsive-max($screen-md) {
+			width: 100%;
+		}
+	}
+
+	.error {
+		.cb &,
+		.yb & {
+			color: palette((color: red)...);
+		}
+
+		.dyb & {
+			color: palette((color: red, brand: dyb)...);
+		}
+	}
+
+	//stack manual button only for dyb
+	.dyb & .manual-postcode {
+		&.col-md-3 {
+			width: 100%;
+		}
+
+		.btn-postcode-manual {
+			margin-left: 0;
+			margin-top: $standard-spacing;
+			width: 100%;
+		}
+	}
+
+	.forgot-password-link {
+		margin: 20px 0 40px;
+	}
+
+}
+

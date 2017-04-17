@@ -1,0 +1,231 @@
+{
+    "hits": {
+        "total": 1,
+        "hits": [
+            {
+                "_type": "transaction",
+                "_index": "transactions_2016_09_19",
+                "_id": "76d868eb-7438-2e21-821e-0d7cf75b3ec2",
+                "_source": {
+                    "other_account": {
+                        "number": null,
+                        "sort_code": null,
+                        "bank": null,
+                        "name": "RT 1 C WIEC MHZAPG",
+                        "uuid": null
+                    },
+                    "details": {
+                        "balances": {
+                            "current": {
+                                "value": 1400,
+                                "currency": "GBP"
+                            }
+                        },
+                        "cashback": {
+                            "value": 0,
+                            "currency": "GBP"
+                        },
+                        "timestamps": {
+                            "settled": 1473980400000,
+                            "local_transacted": null
+                        },
+                        "amount": {
+                            "value": -570,
+                            "currency": "GBP"
+                        },
+                        "reference": null,
+                        "fx": {
+                            "fee": {
+                                "international": {
+                                    "value": 0,
+                                    "currency": "GBP"
+                                },
+                                "processing": {
+                                    "value": 0,
+                                    "currency": "GBP"
+                                }
+                            },
+                            "local_amount": {
+                                "value": -0.5,
+                                "currency": "GBP"
+                            },
+                            "rate": 1
+                        },
+                        "posted": false,
+                        "debit_credit": "debit",
+                        "when": "2016-09-19T08:05:00.000Z",
+                        "type": "Direct Debit",
+                        "narrative": {
+                            "medium": "RBS Edinburgh",
+                            "additional_medium": null,
+                            "large": "RBS Edinburgh",
+                            "legacy": null,
+                            "small": "RBS Edinburgh",
+                            "additional_large": null,
+                            "additional_short": null
+                        }
+                    },
+                    "ordinal": "20152090000000000000000001",
+                    "id": "76d868eb-7438-2e21-821e-0d7cf75b3ec2",
+                    "archived": false,
+                    "suggested_terms": "RBS Edinburgh",
+                    "mandate": {
+                        "sequence_number": "6877"
+                    },
+                    "metadata": {
+                        "payment_method": {
+                            "pan_masked": null,
+                            "cheque_number": null
+                        },
+                        "categories": null,
+                        "tags": [
+                            {
+                                "path": "\/eating out",
+                                "value": "Eating out",
+                                "id": 34130,
+                                "archived": false,
+                                "scheme": "NAG Categories"
+                            }
+                        ],
+                        "where": {
+                            "county": null,
+                            "geo_location": {
+                                "longitude": 0,
+                                "latitude": 0
+                            },
+                            "country": {
+                                "name": null,
+                                "code": null
+                            },
+                            "city": null
+                        }
+                    },
+                    "this_account": {
+                        "number": "40012813",
+                        "sort_code": "827018",
+                        "bank": null,
+                        "name": null,
+                        "uuid": "5dcfa751-6350-429a-acf3-0bc876fd219d"
+                    }
+                },
+                "sort": [
+                    1474272300000,
+                    "20152090000000000000000001"
+                ],
+                "_score": null
+            },
+            {
+                "_type": "transaction",
+                "_index": "transactions_2016_09_19",
+                "_id": "76d868eb-7438-2e21-821e-0d7cf75b3ec2",
+                "_source": {
+                    "other_account": {
+                        "number": null,
+                        "sort_code": null,
+                        "bank": null,
+                        "name": "RT 1 C WIEC MHZAPG",
+                        "uuid": null
+                    },
+                    "details": {
+                        "balances": {
+                            "current": {
+                                "value": 1400,
+                                "currency": "GBP"
+                            }
+                        },
+                        "cashback": {
+                            "value": 0,
+                            "currency": "GBP"
+                        },
+                        "timestamps": {
+                            "settled": 1473980400000,
+                            "local_transacted": null
+                        },
+                        "amount": {
+                            "value": -12570,
+                            "currency": "GBP"
+                        },
+                        "reference": null,
+                        "fx": {
+                            "fee": {
+                                "international": {
+                                    "value": 0,
+                                    "currency": "GBP"
+                                },
+                                "processing": {
+                                    "value": 0,
+                                    "currency": "GBP"
+                                }
+                            },
+                            "local_amount": {
+                                "value": -0.5,
+                                "currency": "GBP"
+                            },
+                            "rate": 1
+                        },
+                        "posted": true,
+                        "debit_credit": "debit",
+                        "when": "2016-09-19T08:05:00.000Z",
+                        "type": "Direct Debit",
+                        "narrative": {
+                            "medium": "RBS Edinburgh",
+                            "additional_medium": null,
+                            "large": "RBS Edinburgh",
+                            "legacy": null,
+                            "small": "RBS Edinburgh",
+                            "additional_large": null,
+                            "additional_short": null
+                        }
+                    },
+                    "ordinal": "20152090000000000000000001",
+                    "id": "76d868eb-7438-2e21-821e-0d7cf75b3ec2",
+                    "archived": false,
+                    "suggested_terms": "RBS Edinburgh",
+                    "mandate": {
+                        "sequence_number": "6877"
+                    },
+                    "metadata": {
+                        "payment_method": {
+                            "pan_masked": null,
+                            "cheque_number": null
+                        },
+                        "categories": null,
+                        "tags": [
+                            {
+                                "path": "\/eating out",
+                                "value": "Eating out",
+                                "id": 34130,
+                                "archived": false,
+                                "scheme": "NAG Categories"
+                            }
+                        ],
+                        "where": {
+                            "county": null,
+                            "geo_location": {
+                                "longitude": 0,
+                                "latitude": 0
+                            },
+                            "country": {
+                                "name": null,
+                                "code": null
+                            },
+                            "city": null
+                        }
+                    },
+                    "this_account": {
+                        "number": "40012813",
+                        "sort_code": "827018",
+                        "bank": null,
+                        "name": null,
+                        "uuid": "5dcfa751-6350-429a-acf3-0bc876fd219d"
+                    }
+                },
+                "sort": [
+                    1474272300000,
+                    "20152090000000000000000001"
+                ],
+                "_score": null
+            }
+        ]
+    }
+}

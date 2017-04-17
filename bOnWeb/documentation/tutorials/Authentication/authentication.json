@@ -1,0 +1,10 @@
+{
+	"authentication": {
+		"title": "Authentication",
+			"children": {
+				"structure" : {
+					"title": "Component Structure"
+				}
+			}
+	}
+}

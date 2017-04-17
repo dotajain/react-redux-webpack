@@ -1,0 +1,96 @@
+// Body
+$site-background-color: palette((color: white)...);
+
+// Inputs
+/// Background Colors
+$input-background-color: palette((color: grey, tone: light)...);
+$input-focus-background-color: palette((color: white)...);
+$input-complete-background-color: palette((color: white)...);
+$input-error-background-color: palette((color: white)...);
+
+/// Border Colors
+$input-border-color: palette((color: grey)...);
+$hr-border-color: palette((color: grey)...);
+$input-focus-border-color: palette((color: green)...);
+$input-focus-border-color-dyb: palette((color: blue, brand: dyb)...);
+$input-complete-border-color: palette((color: blue)...);
+$input-error-border-color: palette((color: red)...);
+
+/// Text Colors
+$input-text-color: palette((color: grey, tone: dark)...);
+$input-focus-text-color: palette((color: grey, tone: dark)...);
+$input-complete-text-color: palette((color: grey, tone: dark)...);
+$input-error-text-color: palette((color: red, tone: light)...);
+
+/// Radio Button Color
+$input-radio-button-color: palette((color: red)...);
+
+// Buttons
+$button-back-color: palette((color: grey)...);
+$button-next-color-cb: palette((color: red, brand: cb)...);
+$button-next-color-yb: palette((color: blue, brand: yb)...);
+$button-disabled-color: palette((color: grey, tone: light)...);
+$dark-grey-color: palette((color: grey, tone: dark)...);
+
+
+
+// B App Colors
+// Accounts color sequence
+$account-1: #39aeff;
+$account-2: #9ddd00;
+$account-3: #f87f1d;
+$account-4: #ff5970;
+$account-5: #d757ff;
+$account-6: #00e8ff;
+$account-7: #00dcb6;
+$account-8: #ffbd00;
+$account-9: #ff009a;
+$account-10: #9f8cff;
+$account-11: #2be66d;
+
+$accountcolors : (
+	account-1: ($account-1),
+	account-2: ($account-2),
+	account-3: ($account-3),
+	account-4: ($account-4),
+	account-5: ($account-5),
+	account-6: ($account-6),
+	account-7: ($account-7),
+	account-8: ($account-8),
+	account-9: ($account-9),
+	account-10: ($account-10),
+	account-11: ($account-11)
+);
+
+
+// Other Colors
+$grey: #57575f;
+$green: #2be66d;
+$green-2: #68ec69;
+$green-3: #12e076;
+$btn-green: #00db6d;
+$toast-notification-color: rgba(56, 232, 138, .8);
+
+$option-color: $btn-green;
+
+// Progress background 
+$progress-good: #2be66d;
+$progress-warning: #ffbd00;
+$progress-danger: #ff0;
+
+// b.scss
+$color-white: rgba(255, 255, 255, 1);
+$color-black: rgba(0, 0, 0, 1);
+$color-black-opacity: rgba(0, 0, 0, .7);
+$color-black-opacity-0: rgba(0, 0, 0, 0); 
+
+$gray-shade: 
+#c0cad8, #eeeeee, #dddddd, #d1d1d1, #f9f9f9, 
+#a1a1a6, #9fa0a4, #8e8e93, #868686, #57575f, 
+#656565, #e7e7e7, #6d6d6d, #c3c3c3, #6a6a71, 
+#8c8c8c, #dcdcdc, #939398, #8e8e8e, #9f9fa3,
+#575755, #e0e0e0, #cccccc, #222222, #ededed,
+#f4f4f4, #d3d3d3, #8d8d92, #c9c9c9, #555555,
+#999999;
+
+

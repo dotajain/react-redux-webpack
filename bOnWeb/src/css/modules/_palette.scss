@@ -1,0 +1,87 @@
+// Colour palette
+// Specify colours here
+
+// scss-lint:disable ColorVariable
+$palettes: (
+	base: (
+		black: (
+			base: #000
+		),
+		white: (
+			base: #fff
+		),
+		grey: (
+			x-light: #f4f4f4,
+			light: #e7e7e7,
+			base: #c9c9c9,
+			dark: #8e8e93,
+			x-dark: #57595e,
+			opaque-light: rgba(235, 235, 235, .2),
+			opaque-dark: rgba(0, 0, 0, .6)
+		),
+		red: (
+			light: lighten(#e0242a, 20%),
+			base: #e0242a
+		),
+		green: (
+			base: #00b48d
+		),
+		blue: (
+			base: #7da7d9,
+			link: #2780e3
+		),
+		yellow: (
+			light: #fcf8d3,
+			base: #ff0
+		)
+	),
+	cb: (
+		red: (
+			base: #e0242a
+		)
+	),
+	yb: (
+		blue: (
+			base: #0098d7
+		)
+	),
+	dyb: (
+		red: (
+			base: #f00
+		),
+		green: (
+			base: #00a4b3,
+			core: #2ce66d
+		),
+		blue: (
+			base: #3898e4
+		),
+		orange: (
+			base: #f16a2f
+		),
+		purple: (
+			base: #d758ff
+		),
+		pink: (
+			base: #ff5971
+		)
+	)
+);
+// scss-lint:enable ColorVariable
+
+// This is where the magic happens
+// Example uses:
+
+// palette(red);							Get red as defined in the base palette.
+// palette(red, light);						Get light red as defined in the base palette.
+// palette(red, base, cb)					Get red as defined in the cb brand palette.
+// palette((color: red, brand: cb)...);		Does the same as above but without having to specify a base tone.
+// 											(By making map keys matching the arguments name, you can convert a map to
+// 											a variable argument on the fly by appending ... to it.
+// 											Sass will correctly grab values in the correct order.)
+
+
+@function palette($color, $tone: 'base', $brand: 'base') {
+	@return map-get(map-get(map-get($palettes, $brand), $color), $tone);
+}
+

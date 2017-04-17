@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Runs git flow to create a new feature branch, cds to config/config, checks out develop, forks a new branch using the feature name
+# feature/ is current hard coded
+
+echo "Creating feature '$1'" && \
+	git flow feature start $1 && \
+	echo "Creating branch in config"
+	cd config/settings && \
+	git checkout develop && \
+	git checkout -b "feature/$1"
+

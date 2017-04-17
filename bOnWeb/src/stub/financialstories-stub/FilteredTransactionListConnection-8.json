@@ -1,0 +1,141 @@
+{
+  "hits": {
+    "total": 2,
+    "hits": [
+      {
+        "_source": {
+          "id": "641670fb-a5bc-45b5-a355-17dd9bcb2562",
+          "ordinal": "1",
+          "this_account": {
+            "id": "b80e95a0-6b60-45b2-8b0f-77f2355f3061",
+            "type": "current",
+            "product": {
+              "code": "901",
+              "name": "B Current Account",
+              "description": "Current Account"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": true,
+              "/account/projections": true,
+              "/account/sweeps": true,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": true,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": true,
+              "/account/mandates/dd/read": true,
+              "/account/mandates/so/write": true,
+              "/account/mandates/dd/write": true
+            },
+            "bank_id": "CB",
+            "sort_code": "654321",
+            "number": "12345678",
+            "metadata": {
+              "display_name": "B Current"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-11T10:00:00.000+01:00",
+            "amount": {
+              "value": -24.99,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 01, Do It - Build It DIY",
+              "medium": "Card 01, Do It - Build It DIY",
+              "large": "Card 01, Do It - Build It DIY"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Home",
+                "path": "/home",
+                "scheme": "NAG Categories",
+                "id": 8,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "45b1a171-d774-4c37-b817-906ff3f4c6c1",
+          "ordinal": "2",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T16:00:00.000+01:00",
+            "amount": {
+              "value": 230.0,
+              "currency": "GBP"
+            },
+            "narrative": {
+              "small": "Card 02, Home Comforts",
+              "medium": "Card 02, Home Comforts",
+              "large": "Card 02, Home Comforts"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Home",
+                "path": "/home",
+                "scheme": "NAG Categories",
+                "id": 8,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

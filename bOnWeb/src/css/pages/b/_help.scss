@@ -1,0 +1,806 @@
+@import '../../variables/color';
+@import '../../mixins/responsive';
+@import '../../vendor/bootstrap/mixins/vendor-prefixes';
+
+$buttoncolor: #00d882;
+$color: #8e8e93;
+$tablecolor: #f4f4f4;
+$bordercolor: #ddd;
+$bgcolor: #e9eaeb;
+$blackcolor: #57595e;
+$textcolor: #4e4e4e;
+
+.help {
+	panel {
+		background: $btn-green;
+		border-radius: 6px;
+		color: $site-background-color;
+		display: inline-block;
+		height: 200px;
+		margin: 5px;
+		overflow: hidden;
+		padding: 10px;
+		vertical-align: top;
+		width: 24%;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&:last-child {
+			h5 {
+				display: none;
+
+				@include responsive-max($screen-sm) {
+					display: block;
+				}
+
+				&.for-protected {
+					line-height: 22px;
+					margin-top: 0;
+				}
+			}
+		}
+		@include responsive-max($screen-lg) {
+			width: 23.9%;
+		}
+
+		@include responsive-max($screen-md) {
+			width: 31.9%;
+			height: 220px;
+		}
+
+		@include responsive-max($screen-sm) {
+			height: 135px;
+			padding-top: 20px;
+			text-align: center;
+			width: 46.3%;
+		}
+
+		.icon {
+			font-size: 40px;
+
+			@include responsive-max($screen-sm) {
+				font-size: 30px;
+			}
+			&.icon-fscs {
+				@include responsive-max($screen-sm) {
+					height: 60px;
+					width: 60px;
+				}
+			}
+
+		}
+
+		h5 {
+			font-size: 19px;
+			padding-bottom: 15px;
+
+			@include responsive-max($screen-sm) {
+				margin-top: 10px;
+			}
+		}
+
+		p {
+			@include responsive-max($screen-sm-min) {
+				display: none;
+			}
+		}
+	}
+
+	.mobile-nav {
+		background: $btn-green;
+		overflow: hidden;
+		padding: 15px 20px;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 12;
+		margin-right: -20px;
+
+		@include responsive-max($screen-xs) {
+			padding: 15px 10px;
+		}
+
+		.any-question & {
+			padding: 18px 10px;
+			height: 65px;
+		}
+
+	h3 {
+		color : $site-background-color !important;
+		margin: 0 !important;
+		padding: 0;
+		font-family: GalanoGrotesqueRegular;
+		font-size: 20px;
+	}
+
+	a:focus {
+		outline: 0;
+	}
+
+	a:hover, img:hover{
+		cursor: pointer;
+	}
+
+	.refresh-btn {
+		margin-top: 4px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.icon {
+		color: $site-background-color;
+
+		&.icon-swipe-right {
+			font-size: 23px;
+			margin-right: 22px;
+			margin-top: 5px;
+		}
+
+		&.icon-swipe-left {
+			font-size: 23px;
+			margin-right: 22px;
+			margin-top: 5px;
+		}
+
+		&.icon-right {
+			margin-top: 7px;
+		}
+
+		&.icon-refresh {
+			padding-bottom: 9px;
+		}
+
+		&.icon-arrow-disabled {
+			opacity:0.25;
+		}
+	}
+
+	& .btn {
+		border: 0;
+		color: $site-background-color;
+		padding-right: 110px;
+		padding-top: 25px;
+
+		button :focus {
+			outline: 0;
+		}
+	}
+}
+
+	&.mobile-view {
+		height: 100%;
+		position: relative;
+		z-index: 8;
+		background: $site-background-color;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+
+		.action-button {
+			position: fixed;
+			width: 100%;
+			/* border: 1px solid; */
+			margin: 0;
+			text-align: center;
+			left: 0;
+			padding: 10px;
+			background: $btn-green;
+			color: $site-background-color;
+		}
+
+		&.any-question {
+			.mobile-content {
+				overflow-y: hidden !important;
+			}
+		}
+
+
+		.mobile-content {
+			height: 100%;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			padding-left: 10px;
+			padding-right: 15px;
+			padding-top: 80px;
+
+			
+			
+			&.full {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+
+			
+			&.aboutB {
+
+				.about-b-content {
+					overflow: hidden;
+
+				.about-icon {
+					float: left;
+					width: 8%;
+					margin-right: 8px;
+					margin-left: 8px;
+					.icon {
+						font-size: 25px;
+
+						.icon-projection {
+							@include responsive-max($screen-xs) {
+								width : 25px;
+								height: 25px;
+							}
+						}
+					}
+				}
+
+				.about-description {
+					float: right;
+					width: 85%;
+					padding-bottom: 33px;
+
+					section {
+						padding-bottom: 20px;
+					}
+
+					h5 {
+						padding-bottom: 12px;
+						font-size: 1.1rem;
+					}
+
+					& :last-child {
+						padding-bottom: 0;
+					}
+				}
+			}
+
+				.icon {
+					margin: 0;
+				}
+
+				.representaion {
+					padding: 5px 15px 15px 15px !important;
+					background: #F3F3F3;
+					border-radius: 5px;
+					overflow: hidden;
+					margin-bottom: 10px;
+
+					li {
+						list-style: none;
+						border-bottom: 1px solid #ddd;
+						padding: 10px 0;
+
+						&:last-child {
+							border-bottom: 0;
+						}
+
+						h5,
+						p {
+							padding: 2px 0 !important;
+							margin: 0 !important;
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		 
+		 h3 {
+			 text-align: left;
+			 font-size: 16px;
+		 }
+		 .icon {
+				font-size: 35px;
+				color: #00d96c;
+				margin: 0px 0 0 10px;
+				display: inline-block;
+		}
+
+		 p {
+			 a {
+				 color: $btn-green !important;
+			 }
+		 }
+
+		}
+	}
+	
+	&.greenBackground {
+		background: #00db6d  !important;
+
+		.icon-page-back,
+		.icon-page-next {
+			color: #ffffff !important;
+		}
+
+		.demo-pagination {
+			.paginationSwipe {
+				> div {
+					background-color: #fff !important;
+					opacity: 0.5;
+				}
+
+				&.active {
+					> div {
+						background-color: #fff !important;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+	&.bg-help {
+		.greenBackground {
+			background: #00db6d  !important;
+		}
+
+		background: #f3f3f3;
+
+		@include responsive-max($screen-xs) {
+			background: #f8f8f8;
+		}
+
+		.row {
+			background: $site-background-color;
+			padding: 15px 30px;
+		}
+
+		h3 {
+			color: $color;
+			font-family: GalanoGrotesqueMedium;
+			padding-bottom: 0;
+		 }
+
+			@media (min-width: 0) and (max-width: 599px) {
+				h3 {
+					font-size: 18px;
+				}
+			}
+		 
+		}
+
+	.demo-title {
+		display: flex;
+		justify-content: center;
+
+		&.greenBackground {
+
+			.icon-page-back,
+			.icon-page-next {
+				color: #ffffff !important;
+			}
+
+			.demo-pagination {
+				.paginationSwipe {
+					> div {
+						background-color: #fff !important;
+						opacity: 0.5;
+					}
+
+					&.active {
+						> div {
+							background-color: #fff !important;
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+
+		p {
+			margin-top: 10px;
+			padding: 0 15%;
+			}
+
+		.big-b {
+			margin-bottom: 55px;
+			margin-top: 55px;
+			width: 20% !important;
+		}
+
+		.icon-page-back,
+		.icon-page-next {
+			font-size: 20px;
+			position: absolute;
+			top: 45%;
+			z-index: 20;
+		}
+		.icon-arrow-disabled {
+			opacity:0.25;
+		}
+
+		.icon-page-back {
+			left: 10px;
+		}
+
+		.icon-page-next {
+			right: 10px;
+		}
+
+		@media (min-width: 0) and (max-width: 599px) {
+			p {
+				font-size: 14px;
+				}
+		}
+	}
+
+	
+
+	.demo {
+
+		& .icon {
+			color: $btn-green !important;
+			padding:0;
+			margin: 0;
+		 }
+
+		a:hover {
+			cursor: pointer;
+		 }
+
+		}
+
+	
+	 .b & {
+		.page-title {
+			 font-size: 19px;
+
+			 @include responsive-max($screen-sm) {
+					font-size: 10px;
+    				color: #fff;
+				}
+		 }
+		h3 {
+			color: $blackcolor;
+			margin-bottom: 0;
+			margin-top: 5px;
+			text-align: center;
+			width: 100%;
+				}
+
+		p {
+			font-size: 14px;
+				}
+		}
+
+
+	.go {
+
+		.row {
+			background: none !important;
+		}
+
+		background-color: $btn-green;
+		color: $site-background-color !important;
+		height: 100%;
+		text-align: center;
+
+		.col {
+			color: $site-background-color;
+						}
+
+		h1 {
+			font-family: GalanoGrotesqueSemibold;
+			font-size: 47px;
+			margin-bottom: 25%;
+    		margin-top: 30%;
+		}
+
+		.help_btn {
+			background-color: $site-background-color;
+			border-radius: 6px;
+			color: $buttoncolor !important;
+			font-size: 17px;
+			padding: 10px 36px;
+			cursor: pointer;
+	}
+	}
+}
+
+
+.modal-lg {
+	height: 83vh;
+	margin: 95px auto 30px;
+}
+
+.modal-content {
+	.b {
+		min-height: auto;
+		}
+
+	p {
+		font-size: 16px;
+		color: $textcolor;
+		}
+
+	.help-modal {
+		max-height: 300px;
+		overflow-y: auto;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+
+	button :focus {
+		outline: 0;
+	}
+
+	.help_btn {
+		background-color: $site-background-color;
+		border: 0;
+		color: $buttoncolor;
+		display: inline-block;
+		float: none;
+		font-family: GalanoGrotesqueRegular;
+		font-size: 18px;
+		margin: 12px 0 0;
+		outline: 0;
+		box-shadow: none;
+	}
+
+	.help_panel {
+		background-color: $btn-green;
+		border-radius: 5px;
+		color: $site-background-color;
+		height: 201px;
+		margin-bottom: 12px;
+		margin-left: 12px;
+		width: 243px;
+	}
+
+	.help_panel_body {
+		//margin-top: 10px;
+		line-height: 30px;
+		padding: 10px;
+	 }
+
+	.help_btn_panel {
+		border-top-color: $bordercolor;
+		margin-bottom: 0;
+		margin-top: 15px;
+		text-align: center;
+		box-shadow: none;
+	 }
+
+	.tc_head {
+		//text-align:center;
+		padding-bottom: 30px;
+		padding-top: 1px;
+	 }
+
+	.tc_title {
+		float: center;
+		padding-bottom: 30px;
+		padding-top: 40px;
+		}
+
+	.text_align {
+		// color: $text-align;
+		font-size: 16px;
+		text-align: left;
+		}
+
+	.table_background {
+		background-color: $tablecolor;
+		padding: 20px 20px 5px 20px;
+		border-radius: 7px;
+
+		.table {
+			font-family: GalanoGrotesqueRegular;
+		}
+	 }
+
+
+
+
+	.b {
+		&.talk {
+			margin: 10px 0 0 0;
+
+			h3 {
+				color: $textcolor;
+				font-size: 18px;
+				padding-bottom: 10px;
+						}
+				}
+
+		&.email {
+			margin: 10px 0 0 0;
+
+				h3 {
+
+					padding-bottom: 10px;
+
+				}
+
+
+			h3 {
+				font-size: 18px;
+			 }
+       
+
+       a {
+    color: $buttoncolor;
+              }
+	
+
+		.email-button{
+				background: $buttoncolor;
+				color: $site-background-color;
+				border: $bordercolor;
+				position: fixed;
+				left: 0;
+				padding: 15px 0;
+				font-size: 23px;
+				height:70px;
+				width: 600px;
+				text-align: center;
+			border-top-color: #00d882;
+		}
+
+		}
+
+		&.about-b {
+			margin: 15px 0 0 1px;
+
+			strong {
+				font-weight: bold;
+			}
+ 
+			sup {
+				vertical-align: baseline;
+				line-height: 0;
+				top: -0.5em;
+			}
+
+			.about-b-content {
+				overflow: hidden;
+				margin-bottom: 15px;
+
+				.about-icon {
+					float: left;
+					width: 5%;
+					margin-right: 8px;
+					margin-left: 8px;
+
+					.icon {
+						font-size: 30px;
+					}
+				}
+
+				.about-description {
+					float: right;
+					width: 90%;
+
+					h5 {
+					}
+
+					th {
+						font-family: GalanoGrotesqueSemiBold;
+						font-weight: 300;
+						border-bottom: 0;
+					}
+
+					td {
+						border-bottom: 1px solid #ddd;
+					}
+
+					section {
+						padding-bottom: 20px;
+					}
+
+					h5 {
+						padding-bottom: 12px;
+					}
+
+					p {
+						padding-bottom: 25px !important;
+					}
+				}
+			}	
+
+			.modal-footer {
+				margin: 0;
+				padding: 0;
+				float: left;
+				width: 100%;
+			 }
+
+			.heading-small {
+				font-family: GalanoGrotesqueLight;
+				font-size: 14px;
+						}
+
+			h5 {
+				font-size: 16px;
+					@include responsive-max($screen-sm) {
+						padding-top: 10px !important;
+				}
+			 }
+
+			h3 {
+				font-size: 18px;
+			};
+		}
+
+		modal-footer {
+			bottom: 0;
+			height: 3em;
+			position: fixed;
+			width: 100%; // can use left: 0; right: 0; as well
+		}
+
+		modal-header {
+			bottom: 0;
+			height: 3em;
+			position: fixed;
+			width: 100%; //can use left: 0; right: 0; as well
+		}
+
+		&.terms-conditions {
+			margin: 0;
+
+			.modal-header {
+				padding-bottom: 0 !important;    
+			}
+
+			p {
+				padding-top: 0;
+				padding-left: 20px;
+			}
+
+			.modal-footer {
+				margin: 0;
+				padding: 0;
+			 }
+
+			.center-align {
+				text-align: center;
+			}
+
+			h6 {
+				font-size: 18px;
+
+				@include responsive-max($screen-sm) {
+					padding-bottom: 25px !important;
+					font-size: 16px;
+				}
+			}
+
+			hr {
+				background-color: $bgcolor;
+				margin: 5px 0 15px;
+				}
+
+			h3 {
+				font-size: 28px;
+				padding-bottom: 15px;
+
+				@include responsive-max($screen-sm) {
+					padding-bottom: 20px !important;
+					padding-top: 10px !important;
+					font-size: 22px;
+				}
+			}
+
+			.txt-content {
+				@media only screen 
+				and (min-device-width : 320px) 
+				and (max-device-width : 568px)
+				and (orientation : portrait) { 
+					height: 228px !important;
+				}
+
+				@media only screen 
+				and (min-device-width : 375px) 
+				and (max-device-width : 667px) {
+					height: 350px !important;
+				}
+
+				@media only screen 
+				and (min-device-width : 414px) 
+				and (max-device-width : 736px) { 
+					height: 410px !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,883 @@
+{
+  "hits": {
+    "total": 12,
+    "hits": [
+      {
+        "_source": {
+          "id": "34dd756f-a0ba-41f0-ab59-318fdcb6b32e",
+          "ordinal": "1",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-20T10:00:00.000+01:00",
+            "amount": {
+              "value": 31.0,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1517.44,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Vets For Pets",
+              "medium": "Card 02, Vets For Pets,",
+              "large": "Card 02, Vets For Pets,"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Pets",
+                "path": "/pets",
+                "scheme": "NAG Categories",
+                "id": 15,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "45b1a171-d774-4c37-b817-906ff3f4c6c1",
+          "ordinal": "2",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-12T16:00:00.000+01:00",
+            "amount": {
+              "value": 230.0,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1486.44,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Home Comforts",
+              "medium": "Card 02, Home Comforts",
+              "large": "Card 02, Home Comforts"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Home",
+                "path": "/home",
+                "scheme": "NAG Categories",
+                "id": 8,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "39373a79-54b0-44ca-b70c-18be5f6ec102",
+          "ordinal": "3",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-05-09T13:00:00.000+01:00",
+            "amount": {
+              "value": 78.66,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1256.44,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Electronics.com",
+              "medium": "Card 02, Electronics.com",
+              "large": "Card 02, Electronics.com"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Tech",
+                "path": "/tech",
+                "scheme": "NAG Categories",
+                "id": 13,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "29716fa9-e626-400e-ac46-7e4a4340f2da",
+          "ordinal": "4",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Charge",
+            "posted": true,
+            "when": "2016-04-27T13:00:00.000+01:00",
+            "amount": {
+              "value": 19.05,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1177.78,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Interest",
+              "medium": "Interest",
+              "large": "Interest"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "df1db3d2-4739-4e86-a95d-032cdba1f763",
+          "ordinal": "5",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point of Sale",
+            "posted": true,
+            "when": "2016-04-19T13:00:00.000+01:00",
+            "amount": {
+              "value": 64.86,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1158.73,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, The Chemist",
+              "medium": "Card 02, The Chemist",
+              "large": "Card 02, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "cd0b562b-1b74-48ad-903b-4c71708703d8",
+          "ordinal": "6",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-18T11:00:00.000+01:00",
+            "amount": {
+              "value": 64.86,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1093.87,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, The Chemist",
+              "medium": "Card 02, The Chemist",
+              "large": "Card 02, The Chemist"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "901c5991-9c7d-4160-8c7b-526210908737",
+          "ordinal": "7",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-18T07:00:00.000+01:00",
+            "amount": {
+              "value": 200.0,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1029.01,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": " Card 02, Holidays Online",
+              "medium": "Card 02, Holidays Online",
+              "large": "Card 02, Holidays Online"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Holidays",
+                "path": "/holidays",
+                "scheme": "NAG Categories",
+                "id": 7,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "8ee3a23c-b321-4996-a47e-eead679167fc",
+          "ordinal": "8",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "posted": true,
+            "when": "2016-04-17T08:00:00.000+01:00",
+            "amount": {
+              "value": -500.0,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 829.01,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Bob Brown 12345678",
+              "medium": "Bob Brown 12345678",
+              "large": "Bob Brown 12345678"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Untagged",
+                "path": "/untagged",
+                "scheme": "NAG Categories",
+                "id": 19,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "c44a1c71-2a16-4f96-a598-6f1a11364d76",
+          "ordinal": "9",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-16T08:00:00.000+01:00",
+            "amount": {
+              "value": 199.99,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1329.01,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Bike Store",
+              "medium": "Card 02, Bike Store",
+              "large": "Card 02, Bike Store"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Keeping fit",
+                "path": "/keeping fit",
+                "scheme": "NAG Categories",
+                "id": 9,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "1db193d6-1ee8-4441-bcc4-2675af5e00ed",
+          "ordinal": "10",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-12T13:00:00.000+01:00",
+            "amount": {
+              "value": 29.77,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1129.02,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Burger Stores",
+              "medium": "Card 02, Burger Stores",
+              "large": "Card 02, Burger Stores"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Eating out",
+                "path": "/eating out",
+                "scheme": "NAG Categories",
+                "id": 12,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "914b4848-ef82-4769-8072-7ee46dc3759a",
+          "ordinal": "11",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-06T13:00:00.000+01:00",
+            "amount": {
+              "value": 43.25,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1099.25,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Vets for Pets",
+              "medium": "Card 02, Vets for Pets",
+              "large": "Card 02, Vets for Pets"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Pets",
+                "path": "/pets",
+                "scheme": "NAG Categories",
+                "id": 15,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      },
+      {
+        "_source": {
+          "id": "e15d5cf3-a0b0-447a-8e40-42474fbba9bf",
+          "ordinal": "12",
+          "this_account": {
+            "id": "084c7a11-c91a-45ef-baea-2fd0e9556e16",
+            "type": "credit_card",
+            "product": {
+              "code": "901",
+              "name": "Gold MasterCard",
+              "description": "Gold MasterCard credit card"
+            },
+            "actions_available": {
+              "/account/pots": false,
+              "/account/alerts": false,
+              "/account/projections": false,
+              "/account/sweeps": false,
+              "/account/sweeps/transfer/out": false,
+              "/account/transactions/read": true,
+              "/account/payments/transfer/in": false,
+              "/account/payments/transfer/out": true,
+              "/account/payments/uk/default/out": true,
+              "/account/mandates/so/read": false,
+              "/account/mandates/dd/read": false,
+              "/account/mandates/so/write": false,
+              "/account/mandates/dd/write": false
+            },
+            "bank_id": "CB",
+            "sort_code": null,
+            "number": "************1234",
+            "metadata": {
+              "display_name": "My Credit Card"
+            }
+          },
+          "details": {
+            "type": "Point Of Sale",
+            "posted": true,
+            "when": "2016-04-02T08:00:00.000+01:00",
+            "amount": {
+              "value": 56.0,
+              "currency": "GBP"
+            },
+            "balances": {
+              "current": {
+                "value": 1056.0,
+                "currency": "GBP"
+              }
+            },
+            "narrative": {
+              "small": "Card 02, Quick Stop Garage",
+              "medium": "Card 02, Quick Stop Garage",
+              "large": "Card 02, Quick Stop Garage"
+            }
+          },
+          "metadata": {
+            "tags": [
+
+            ],
+            "categories": [
+              {
+                "value": "Fuel",
+                "path": "/fuel",
+                "scheme": "NAG Categories",
+                "id": 4,
+                "archived": false
+              }
+            ],
+            "where": {
+              "city": "Leafyville"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

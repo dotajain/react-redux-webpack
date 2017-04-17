@@ -1,0 +1,34 @@
+.switch-page-wrapper {
+	@include dyb-header('header-switch-page.jpg');
+	@include dyb-color((color: blue)...);
+}
+
+.switch-content {
+	img {
+		padding-bottom: $standard-spacing;
+	}
+
+	.switch-guarantee-logo {
+		@include responsive-min($screen-md) {
+			float: right;
+			padding-left: $standard-spacing;
+		}
+
+	}
+}
+
+.switch-type-section {
+	@include responsive-min($screen-sm) {
+		.radio-inline {
+			padding: 18px 0;
+			width: 170px;
+
+			span {
+				.cb &,
+				.yb & {
+					height: 36px;
+			      }
+			}
+		}
+	}
+}

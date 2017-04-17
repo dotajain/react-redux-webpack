@@ -1,0 +1,34 @@
+$b-input-border: #c9c9c9;
+
+@mixin input-error() {
+	border: 3px solid $input-error-border-color;
+	background-color: $input-error-background-color;
+	color: $input-error-text-color;
+
+	.dyb & {
+		border: 2px solid palette((color: red, brand: dyb)...);
+		color: palette((color: red, brand: dyb)...);
+	}
+}
+
+@mixin input-complete() {
+	background-color: $input-complete-background-color;
+}
+
+@mixin input-focus() {
+	border: 3px solid $input-focus-border-color;
+	background-color: $input-focus-background-color;
+
+	.dyb & {
+		border: 2px solid $input-focus-border-color-dyb;
+	}
+
+	.b & {
+		border: {
+			bottom: 2px solid $b-input-border;
+			left: 0;
+			right: 0;
+			top: 0;
+		}
+	}
+}

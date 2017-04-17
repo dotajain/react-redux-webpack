@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Commits content/config submodule, then stages and commits that commit to web-app
+
+args=$@
+
+# Commit config
+cd config/settings && \
+	git push origin $(git rev-parse --abbrev-ref HEAD)
+
+# Commit web app
+cd ../../ && \
+	git push origin $(git rev-parse --abbrev-ref HEAD)
+

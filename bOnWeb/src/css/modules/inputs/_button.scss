@@ -1,0 +1,16 @@
+button, 
+a {
+	&.btn-disabled {
+		background-color: palette((color: grey, tone: dark)...);
+	}
+	
+	&.btn {
+		&:focus {
+			outline: 2px solid $input-focus-border-color;
+
+			.dyb & {
+				outline: 2px solid $input-focus-border-color-dyb;
+			}
+		}
+	}
+}

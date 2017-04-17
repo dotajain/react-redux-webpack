@@ -1,0 +1,10 @@
+// All z-index values should be defined here so that each layer can be clearly visible in relation to others.
+// Ideally a z-index should not exceed 10.
+
+$z-index-timer-timeline: 4;
+$z-index-timer-marker: 5;
+$z-index-date-picker-overlay: 6;
+$z-index-date-picker: 7;
+$z-index-header: 8;
+$z-index-otp: 9;
+$z-index-spinner: 10;

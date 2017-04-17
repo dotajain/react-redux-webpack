@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="robots" content="noindex">
+		
+		<script>window.adobeDataLayer = [];</script>
+		<!-- APP_VERSION: REPLACE -->
+	</head>
+	<body>
+		<div id="browserhappy" class="container-flued-full" style="display: none;" role="dialog" aria-live="polite" aria-atomic="true"><div class="alert alert-warning text-center"><p >Sorry, our online application does not support your browser. Please <a role=button href="http://browsehappy.com/" target="_blank" title="www.browsehappy.com This link will open in a new browser window.">update your browser <span class="screenreader">www.browsehappy.com This link will open in a new browser window.</span></a> to a newer version or try again with a different browser.</p> <p>You can close this window to return to the site to see other ways to apply.</p></div></div>
+		<a class="anchor" id="top"></a>
+		<div id="react"></div>
+
+		<script>
+			
+			function showMsg() {
+				document.getElementById("browserhappy").style = 
+				document.getElementById("browserhappy").style.display = "block";
+			}
+
+			(function() {
+				'use strict';
+
+				function getIEVersion(){
+				    var agent = navigator.userAgent;
+				    var reg = /MSIE\s?(\d+)(?:\.(\d+))?/i;
+				    var matches = agent.match(reg);
+				    if (matches != null) {
+				        return parseInt(matches[1]);
+				    }
+				    return -1;
+				};
+
+				var ieVersion =  getIEVersion();
+				var isIE10 = ieVersion === 10;
+				
+				if (isIE10 === true) {
+					showMsg();
+				};
+
+				var url = window.location.href;
+				var searchString = '/bapp';
+				var searchIndex = url.indexOf(searchString);
+				var baseUrl = url.substr(0, searchIndex);
+				var head = document.getElementsByTagName('head')[0];
+
+				var assets = [
+					'/static/favicon.ico',
+					'/css/main.css',
+					'/static/content.js',
+					'/static/config.js',
+					'/static/stub-config.js',
+					'/js/app.js',
+					'/fonts/GalanoGrotesque-Regular.woff',
+					'/fonts/GalanoGrotesque-SemiBold.woff',
+					'/fonts/b-font.woff'
+				];
+
+				assets.map(function(asset) {
+					var element;
+					var type = asset.split('.').pop();
+					var url = baseUrl + asset;
+
+					if (type === 'ico') {
+						element = document.createElement('link');
+						element.type = 'image/x-icon';
+						element.rel = 'shortcut icon';
+						element.href = url;
+					}
+
+					if (type === 'css') {
+						element = document.createElement('link');
+						element.rel = 'stylesheet';
+						element.href = url;
+					}
+
+					if (type === 'js') {
+						element = document.createElement('script');
+						element.src = url;
+					}
+
+					if (type ===  'woff') {
+						element = document.createElement('link');
+						element.rel = 'preload';
+						element.href = url;
+						element.as = 'font';
+						element.type = 'font/woff';
+					}
+
+					element && head.appendChild(element);
+				});
+
+			}());
+		</script>
+		<!--[if lte IE 9]>
+			<script>
+				(showMsg)();
+			</script>
+		<![endif]-->
+	</body>
+</html>

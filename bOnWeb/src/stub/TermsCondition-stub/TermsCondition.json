@@ -1,0 +1,8 @@
+{
+    "category" : "tandcs",
+    "service" : "b",
+    "version" : "v3.8",
+    "content" : {
+        "ref" : "termsandconditions/robots.txt"
+    }
+}

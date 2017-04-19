@@ -1,9 +1,0 @@
-{
-    "period" : {
-        "scope" : "monthly",
-        "net_income" : {
-            "value" : 2500.00,
-            "currency" : "GBP"
-        }
-    }
-}

@@ -1,6 +1,0 @@
-node_modules/*
-**/vendor/*.js
-**/__tests__/*.js
-**/__mocks__/*.js
-**/*.json
-src/js/config.js

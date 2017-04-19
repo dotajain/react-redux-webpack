@@ -1,9 +1,0 @@
-@mixin timeline-item-start-margins($first-item-margin: -23px, $second-item-margin: 0) {
-  & + .timeline-item:not(.timeline-item-left):not(.timeline-item-right) {
-    margin-top: $first-item-margin;
-
-    & + .timeline-item:not(.timeline-item-left):not(.timeline-item-right) {
-      margin-top: $second-item-margin;
-    }
-  }
-}

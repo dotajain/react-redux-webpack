@@ -1,0 +1,104 @@
+.products-icon{
+  height: 70px;
+  margin-bottom: 15px; 
+}
+
+.scroll-link{
+  display: block;
+  cursor: pointer;
+  font-family: $font-medium;
+  &.active {
+    color: $blue;
+  }
+} 
+
+.bg-blue {
+  background-color: lighten($blue, 35%);
+  border-top: 1px solid #bcd0e8;
+  border-bottom: 1px solid #bcd0e8;
+}
+
+.browser{
+  &-window {
+    box-shadow: 0px 0px 25px rgba($black, 0.1);
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid $blue;
+    border-radius: 3px;
+    background-color: $white;
+  }
+  &-header {
+    border-bottom: 1px solid $blue;
+    background-color: #fff;
+    text-align: left;
+    padding: 5px;
+    line-height: 0;
+    .dot {
+      border: 1px solid $blue;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 0;
+      margin: 0px 2px;
+    }
+  }
+  &-body {
+    padding: 20px;
+  }
+}
+
+.devToolsLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    max-height: 80px;
+  }
+  .logo-synbaas {
+    img {
+      max-width: 200px;
+    }
+  }
+  .logo-azure {
+    img {
+      max-height: 120px;
+    }
+  }
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-radius: 0;
+  border: 0;
+  padding: 1.5rem;
+  &-danger {
+    background-color: $red;
+    color: $white;
+    .close {
+      color: $white;
+      opacity: 1;
+      text-shadow: none; 
+    }
+  }
+  
+}
+
+.page-loader {
+  padding: 60px;
+  color: #dcdcdc;
+}
+
+.highcharts{
+  &-container {
+    border: 1px solid $blue;
+  }
+  &-credits {
+    display: none;
+  }
+}
